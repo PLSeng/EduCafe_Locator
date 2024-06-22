@@ -1,0 +1,3915 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf = L.map(
+                "map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf",
+                {
+                    center: [11.553800092896171, 104.9054493852459],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b5c0fe1917e5e2dd3329f12903c88e1e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b5c0fe1917e5e2dd3329f12903c88e1e.addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+            var marker_0721a565cec1ee31525d7aaa476906dc = L.marker(
+                [11.568929, 104.893694],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_c2e2f726c333779901a65422d3d82b17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6591fba8e796e8be0f5ee2335736aeb1 = $(`<div id="html_6591fba8e796e8be0f5ee2335736aeb1" style="width: 100.0%; height: 100.0%;">CJCC (Cambodia-Japan Cooperation Center)</div>`)[0];
+                popup_c2e2f726c333779901a65422d3d82b17.setContent(html_6591fba8e796e8be0f5ee2335736aeb1);
+            
+        
+
+        marker_0721a565cec1ee31525d7aaa476906dc.bindPopup(popup_c2e2f726c333779901a65422d3d82b17)
+        ;
+
+        
+    
+    
+            var marker_8d9d4b576ac19e9f1eddc63c397337d3 = L.marker(
+                [11.5636842, 104.9128193],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_fe953dbdff726dcd0be520d253186b8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b56a6d3e10da5e8a9b86079bbcd9db4b = $(`<div id="html_b56a6d3e10da5e8a9b86079bbcd9db4b" style="width: 100.0%; height: 100.0%;">Angkor Computer Center</div>`)[0];
+                popup_fe953dbdff726dcd0be520d253186b8c.setContent(html_b56a6d3e10da5e8a9b86079bbcd9db4b);
+            
+        
+
+        marker_8d9d4b576ac19e9f1eddc63c397337d3.bindPopup(popup_fe953dbdff726dcd0be520d253186b8c)
+        ;
+
+        
+    
+    
+            var marker_a34df8695e15ab04631e2dc443bad055 = L.marker(
+                [11.5649894, 104.8997674],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_3886de7a688ec3c25db3e6bdb6f71670 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfc9e4d1000c1528a38987fd90574be4 = $(`<div id="html_bfc9e4d1000c1528a38987fd90574be4" style="width: 100.0%; height: 100.0%;">SAS Santhormuk - Stanford American School</div>`)[0];
+                popup_3886de7a688ec3c25db3e6bdb6f71670.setContent(html_bfc9e4d1000c1528a38987fd90574be4);
+            
+        
+
+        marker_a34df8695e15ab04631e2dc443bad055.bindPopup(popup_3886de7a688ec3c25db3e6bdb6f71670)
+        ;
+
+        
+    
+    
+            var marker_d44fc6c64fa160634b976dc30082647e = L.marker(
+                [11.5630516, 104.9002755],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_10d13520b4d6503bb4548feba7f2a3e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2178287792d99beac3151422689b554 = $(`<div id="html_d2178287792d99beac3151422689b554" style="width: 100.0%; height: 100.0%;">Sovannaphumi School, Tep Phan Campus</div>`)[0];
+                popup_10d13520b4d6503bb4548feba7f2a3e6.setContent(html_d2178287792d99beac3151422689b554);
+            
+        
+
+        marker_d44fc6c64fa160634b976dc30082647e.bindPopup(popup_10d13520b4d6503bb4548feba7f2a3e6)
+        ;
+
+        
+    
+    
+            var marker_5dcfaff58b8df27c95839bb3bf6c0714 = L.marker(
+                [11.5463741, 104.9079857],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_0204a354d0bbca9042ad59f318b73fa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c3fd6c7c8ca5881e7b88fb7e4e35a90 = $(`<div id="html_8c3fd6c7c8ca5881e7b88fb7e4e35a90" style="width: 100.0%; height: 100.0%;">Aii Language Center (Aii), Mao Tse Tong (QLH Building)</div>`)[0];
+                popup_0204a354d0bbca9042ad59f318b73fa2.setContent(html_8c3fd6c7c8ca5881e7b88fb7e4e35a90);
+            
+        
+
+        marker_5dcfaff58b8df27c95839bb3bf6c0714.bindPopup(popup_0204a354d0bbca9042ad59f318b73fa2)
+        ;
+
+        
+    
+    
+            var marker_dafca87b7969dcfe53eb990376bcd79d = L.marker(
+                [11.5719993, 104.8700635],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_be86e367494c7a1dea96d5d1ce6c6fe3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0e070b54dce8bac4c5deebc38431d74 = $(`<div id="html_f0e070b54dce8bac4c5deebc38431d74" style="width: 100.0%; height: 100.0%;">Headstart International School</div>`)[0];
+                popup_be86e367494c7a1dea96d5d1ce6c6fe3.setContent(html_f0e070b54dce8bac4c5deebc38431d74);
+            
+        
+
+        marker_dafca87b7969dcfe53eb990376bcd79d.bindPopup(popup_be86e367494c7a1dea96d5d1ce6c6fe3)
+        ;
+
+        
+    
+    
+            var marker_04bc3c38de821beb787c37d1bfa31a61 = L.marker(
+                [11.5782644, 104.8941381],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_a81635c0ffccbde01c0d7dc164c51ed8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_066d7ac6a6e9be2cd2358fff54358a0a = $(`<div id="html_066d7ac6a6e9be2cd2358fff54358a0a" style="width: 100.0%; height: 100.0%;">Collingwood School Of Phnom Penh</div>`)[0];
+                popup_a81635c0ffccbde01c0d7dc164c51ed8.setContent(html_066d7ac6a6e9be2cd2358fff54358a0a);
+            
+        
+
+        marker_04bc3c38de821beb787c37d1bfa31a61.bindPopup(popup_a81635c0ffccbde01c0d7dc164c51ed8)
+        ;
+
+        
+    
+    
+            var marker_0321eedd102b8ce6129ac30e811bf5a6 = L.marker(
+                [11.5681019, 104.8984931],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_5497f355cafd69eeda91b945c9a3787a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efe3c5dd990f23baa2c47a2651d089fa = $(`<div id="html_efe3c5dd990f23baa2c47a2651d089fa" style="width: 100.0%; height: 100.0%;">THE WESTLINE SCHOOL– SANTHORMOK Branch</div>`)[0];
+                popup_5497f355cafd69eeda91b945c9a3787a.setContent(html_efe3c5dd990f23baa2c47a2651d089fa);
+            
+        
+
+        marker_0321eedd102b8ce6129ac30e811bf5a6.bindPopup(popup_5497f355cafd69eeda91b945c9a3787a)
+        ;
+
+        
+    
+    
+            var marker_379d9cfc1a7de5f59b1a2cbc83ba74be = L.marker(
+                [11.536388, 104.9142881],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_e8d413b5687faebdd7fb81855ee95f06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd6dc1109494792a2a1f64a2fbb4185c = $(`<div id="html_fd6dc1109494792a2a1f64a2fbb4185c" style="width: 100.0%; height: 100.0%;">THE WESTLINE SCHOOL– TUOL TOMPOUNG Branch</div>`)[0];
+                popup_e8d413b5687faebdd7fb81855ee95f06.setContent(html_fd6dc1109494792a2a1f64a2fbb4185c);
+            
+        
+
+        marker_379d9cfc1a7de5f59b1a2cbc83ba74be.bindPopup(popup_e8d413b5687faebdd7fb81855ee95f06)
+        ;
+
+        
+    
+    
+            var marker_61b607078051fe9faf82f133838ef9f9 = L.marker(
+                [11.5399255, 104.9167552],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_b5e8ad8d067615ac8967fa7804d1143d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_102220dec4e257cdf515c65da5827fc7 = $(`<div id="html_102220dec4e257cdf515c65da5827fc7" style="width: 100.0%; height: 100.0%;">Vestal International School</div>`)[0];
+                popup_b5e8ad8d067615ac8967fa7804d1143d.setContent(html_102220dec4e257cdf515c65da5827fc7);
+            
+        
+
+        marker_61b607078051fe9faf82f133838ef9f9.bindPopup(popup_b5e8ad8d067615ac8967fa7804d1143d)
+        ;
+
+        
+    
+    
+            var marker_6553cb604402d6912cdf172b52acebe4 = L.marker(
+                [11.5462544, 104.9226818],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_6846ab6f74f52274ec12e387477e50d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6982a502d4b352c5dfa32808ea3310a6 = $(`<div id="html_6982a502d4b352c5dfa32808ea3310a6" style="width: 100.0%; height: 100.0%;">The Giving Tree International School</div>`)[0];
+                popup_6846ab6f74f52274ec12e387477e50d9.setContent(html_6982a502d4b352c5dfa32808ea3310a6);
+            
+        
+
+        marker_6553cb604402d6912cdf172b52acebe4.bindPopup(popup_6846ab6f74f52274ec12e387477e50d9)
+        ;
+
+        
+    
+    
+            var marker_e54b55caf2881377a535445ec9581700 = L.marker(
+                [11.5484601, 104.9150592],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_b9c09342d52044e8457dbf9f66ce7c3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8589f0a7c852fb9844be0d455bafd25 = $(`<div id="html_f8589f0a7c852fb9844be0d455bafd25" style="width: 100.0%; height: 100.0%;">Home of English Cambodia (Preschool)</div>`)[0];
+                popup_b9c09342d52044e8457dbf9f66ce7c3b.setContent(html_f8589f0a7c852fb9844be0d455bafd25);
+            
+        
+
+        marker_e54b55caf2881377a535445ec9581700.bindPopup(popup_b9c09342d52044e8457dbf9f66ce7c3b)
+        ;
+
+        
+    
+    
+            var marker_d3baca0fdec91daf2601746a9cc73bb3 = L.marker(
+                [11.5776353, 104.8914698],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_1356ae6dc6a5b8ae0e5225c303a3cb21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_245aa38ea199b79469984d914ba1fcf9 = $(`<div id="html_245aa38ea199b79469984d914ba1fcf9" style="width: 100.0%; height: 100.0%;">Indradevi High School</div>`)[0];
+                popup_1356ae6dc6a5b8ae0e5225c303a3cb21.setContent(html_245aa38ea199b79469984d914ba1fcf9);
+            
+        
+
+        marker_d3baca0fdec91daf2601746a9cc73bb3.bindPopup(popup_1356ae6dc6a5b8ae0e5225c303a3cb21)
+        ;
+
+        
+    
+    
+            var marker_90c9de9ddfd2c94af18900f3bc836a20 = L.marker(
+                [11.5637664, 104.870695],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_4644455ce7bc57614f8e76842b01843c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa90a61d30b35553b59b773fd5107f91 = $(`<div id="html_aa90a61d30b35553b59b773fd5107f91" style="width: 100.0%; height: 100.0%;">Milky Way School, Visionary, Toek Thla Overpass</div>`)[0];
+                popup_4644455ce7bc57614f8e76842b01843c.setContent(html_aa90a61d30b35553b59b773fd5107f91);
+            
+        
+
+        marker_90c9de9ddfd2c94af18900f3bc836a20.bindPopup(popup_4644455ce7bc57614f8e76842b01843c)
+        ;
+
+        
+    
+    
+            var marker_4c247a495b9ed7e9acf297213f6f4344 = L.marker(
+                [11.5625474, 104.924456],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_2622b407d461ef93b5c1475b43514f99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9715b094574641c1cab5d35fc9a9582 = $(`<div id="html_f9715b094574641c1cab5d35fc9a9582" style="width: 100.0%; height: 100.0%;">American Pacific International School - Daun Penh Campus</div>`)[0];
+                popup_2622b407d461ef93b5c1475b43514f99.setContent(html_f9715b094574641c1cab5d35fc9a9582);
+            
+        
+
+        marker_4c247a495b9ed7e9acf297213f6f4344.bindPopup(popup_2622b407d461ef93b5c1475b43514f99)
+        ;
+
+        
+    
+    
+            var marker_76ef69d0a25837f169e942214b688f90 = L.marker(
+                [11.5601398, 104.9192513],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_5b82a4e8cad1d1778ddf0cf77761562e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_743f7c94a22db211dab3c168f6b528b0 = $(`<div id="html_743f7c94a22db211dab3c168f6b528b0" style="width: 100.0%; height: 100.0%;">ICS - Information Computer School</div>`)[0];
+                popup_5b82a4e8cad1d1778ddf0cf77761562e.setContent(html_743f7c94a22db211dab3c168f6b528b0);
+            
+        
+
+        marker_76ef69d0a25837f169e942214b688f90.bindPopup(popup_5b82a4e8cad1d1778ddf0cf77761562e)
+        ;
+
+        
+    
+    
+            var marker_a6e65d82c5e29e8f7ce07adea4fdcd2e = L.marker(
+                [11.548878, 104.9213643],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_3acdbd7f90e8d66f6438f65f71e08b1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4721ae32ee00616e3cc90a9abb8dc6a3 = $(`<div id="html_4721ae32ee00616e3cc90a9abb8dc6a3" style="width: 100.0%; height: 100.0%;">Self Online Education</div>`)[0];
+                popup_3acdbd7f90e8d66f6438f65f71e08b1c.setContent(html_4721ae32ee00616e3cc90a9abb8dc6a3);
+            
+        
+
+        marker_a6e65d82c5e29e8f7ce07adea4fdcd2e.bindPopup(popup_3acdbd7f90e8d66f6438f65f71e08b1c)
+        ;
+
+        
+    
+    
+            var marker_97388eda848d92172f2cda047b2a3e1a = L.marker(
+                [11.5499049, 104.922975],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_9531d4e60704902b3f65cd8dc70eda84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9bda4d2ee823460518fb2c43e4a2ba5 = $(`<div id="html_c9bda4d2ee823460518fb2c43e4a2ba5" style="width: 100.0%; height: 100.0%;">Heritage International School, Cambodia</div>`)[0];
+                popup_9531d4e60704902b3f65cd8dc70eda84.setContent(html_c9bda4d2ee823460518fb2c43e4a2ba5);
+            
+        
+
+        marker_97388eda848d92172f2cda047b2a3e1a.bindPopup(popup_9531d4e60704902b3f65cd8dc70eda84)
+        ;
+
+        
+    
+    
+            var marker_4089c95f7b4ea8c989c0d880e3f75caa = L.marker(
+                [11.5739481, 104.8902244],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_cb878598925aa8cbc2daa3b954fa95c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48ef2f82b8ba3dfb3e1592b96a43ee5d = $(`<div id="html_48ef2f82b8ba3dfb3e1592b96a43ee5d" style="width: 100.0%; height: 100.0%;">Sunrise School</div>`)[0];
+                popup_cb878598925aa8cbc2daa3b954fa95c6.setContent(html_48ef2f82b8ba3dfb3e1592b96a43ee5d);
+            
+        
+
+        marker_4089c95f7b4ea8c989c0d880e3f75caa.bindPopup(popup_cb878598925aa8cbc2daa3b954fa95c6)
+        ;
+
+        
+    
+    
+            var marker_2ed03deea979e297c7242b45040d0a4c = L.marker(
+                [11.5618265, 104.9283804],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_fb3f402a552682347b26f40283ae59bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5c14a316e693a2e9ba2c376f552a60b = $(`<div id="html_c5c14a316e693a2e9ba2c376f552a60b" style="width: 100.0%; height: 100.0%;">Pannasastra University of Cambodia (PUC)</div>`)[0];
+                popup_fb3f402a552682347b26f40283ae59bf.setContent(html_c5c14a316e693a2e9ba2c376f552a60b);
+            
+        
+
+        marker_2ed03deea979e297c7242b45040d0a4c.bindPopup(popup_fb3f402a552682347b26f40283ae59bf)
+        ;
+
+        
+    
+    
+            var marker_51c8ac86e1fe67103eaa87f9e3344052 = L.marker(
+                [11.5604935, 104.9342383],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_e7f42f7950e4f67b02ce590f6f82a52b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c079eefe518c75efc60d429c75a3cbf5 = $(`<div id="html_c079eefe518c75efc60d429c75a3cbf5" style="width: 100.0%; height: 100.0%;">Chabad Cambodia - Jewish Center בית חבד קמבודיה</div>`)[0];
+                popup_e7f42f7950e4f67b02ce590f6f82a52b.setContent(html_c079eefe518c75efc60d429c75a3cbf5);
+            
+        
+
+        marker_51c8ac86e1fe67103eaa87f9e3344052.bindPopup(popup_e7f42f7950e4f67b02ce590f6f82a52b)
+        ;
+
+        
+    
+    
+            var marker_440b81f26cedf32e9fc4ce0369c02a9d = L.marker(
+                [11.5533402, 104.9066657],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_b5bfccb806fb7371b7db61cc70195da2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d894e139d1f4eee7efafdc62e35cdca = $(`<div id="html_1d894e139d1f4eee7efafdc62e35cdca" style="width: 100.0%; height: 100.0%;">THE WESTLINE SCHOOL– TOUL SVAY PREY Branch</div>`)[0];
+                popup_b5bfccb806fb7371b7db61cc70195da2.setContent(html_1d894e139d1f4eee7efafdc62e35cdca);
+            
+        
+
+        marker_440b81f26cedf32e9fc4ce0369c02a9d.bindPopup(popup_b5bfccb806fb7371b7db61cc70195da2)
+        ;
+
+        
+    
+    
+            var marker_77488018090228de9bc02e2f697c06e5 = L.marker(
+                [11.5455714, 104.8999026],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_f7e8c989eef830a7d1ee852b1148b9a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1031fdf1d964dcf9275e97d8476ed65d = $(`<div id="html_1031fdf1d964dcf9275e97d8476ed65d" style="width: 100.0%; height: 100.0%;">ASEAN International School (SN Branch)</div>`)[0];
+                popup_f7e8c989eef830a7d1ee852b1148b9a6.setContent(html_1031fdf1d964dcf9275e97d8476ed65d);
+            
+        
+
+        marker_77488018090228de9bc02e2f697c06e5.bindPopup(popup_f7e8c989eef830a7d1ee852b1148b9a6)
+        ;
+
+        
+    
+    
+            var marker_2ea27522492b6ac035f79a84db760268 = L.marker(
+                [11.531304, 104.9390683],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_11d4cf72b69a0f74b6efcac9655760b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5cb4e9efd6bc1f9a33d0a1400ba8d3d = $(`<div id="html_a5cb4e9efd6bc1f9a33d0a1400ba8d3d" style="width: 100.0%; height: 100.0%;">BELTEI International School (Campus 5, Chbar Ampeou)</div>`)[0];
+                popup_11d4cf72b69a0f74b6efcac9655760b9.setContent(html_a5cb4e9efd6bc1f9a33d0a1400ba8d3d);
+            
+        
+
+        marker_2ea27522492b6ac035f79a84db760268.bindPopup(popup_11d4cf72b69a0f74b6efcac9655760b9)
+        ;
+
+        
+    
+    
+            var marker_594f0ada11018e9edb56bc061a38cfe0 = L.marker(
+                [11.5460979, 104.9227639],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_1e345df0095df86dbcdd26c42cc4c312 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b79590448c990adee70afb21ca204930 = $(`<div id="html_b79590448c990adee70afb21ca204930" style="width: 100.0%; height: 100.0%;">Bamboo International School</div>`)[0];
+                popup_1e345df0095df86dbcdd26c42cc4c312.setContent(html_b79590448c990adee70afb21ca204930);
+            
+        
+
+        marker_594f0ada11018e9edb56bc061a38cfe0.bindPopup(popup_1e345df0095df86dbcdd26c42cc4c312)
+        ;
+
+        
+    
+    
+            var marker_e98a06b0d368fae346364bd2cd52ee99 = L.marker(
+                [11.5355601, 104.8832932],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_72cf40f1dbe2d290b53501ff6a256978 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_834f2955a2bac73b327207a2cc3aaa06 = $(`<div id="html_834f2955a2bac73b327207a2cc3aaa06" style="width: 100.0%; height: 100.0%;">Cambodia - Australia School</div>`)[0];
+                popup_72cf40f1dbe2d290b53501ff6a256978.setContent(html_834f2955a2bac73b327207a2cc3aaa06);
+            
+        
+
+        marker_e98a06b0d368fae346364bd2cd52ee99.bindPopup(popup_72cf40f1dbe2d290b53501ff6a256978)
+        ;
+
+        
+    
+    
+            var marker_41b1db455c5681d5eafdd5e101cd5285 = L.marker(
+                [11.5573751, 104.9223421],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_81f59b59d0e4a1f241c3ffab2872b9e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77a22e4d3e5a0c6d0dc4066ad206b4e7 = $(`<div id="html_77a22e4d3e5a0c6d0dc4066ad206b4e7" style="width: 100.0%; height: 100.0%;">Sambo's Tots Phnom Penh School</div>`)[0];
+                popup_81f59b59d0e4a1f241c3ffab2872b9e0.setContent(html_77a22e4d3e5a0c6d0dc4066ad206b4e7);
+            
+        
+
+        marker_41b1db455c5681d5eafdd5e101cd5285.bindPopup(popup_81f59b59d0e4a1f241c3ffab2872b9e0)
+        ;
+
+        
+    
+    
+            var marker_e99ad8e34ccb6e8a9041742b9c8e412a = L.marker(
+                [11.5800721, 104.8507384],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_375351bccdeda634494c156e950962a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c99d2758c8fbd1bac070285a4b3d2e5 = $(`<div id="html_4c99d2758c8fbd1bac070285a4b3d2e5" style="width: 100.0%; height: 100.0%;">Kurmul International School</div>`)[0];
+                popup_375351bccdeda634494c156e950962a5.setContent(html_4c99d2758c8fbd1bac070285a4b3d2e5);
+            
+        
+
+        marker_e99ad8e34ccb6e8a9041742b9c8e412a.bindPopup(popup_375351bccdeda634494c156e950962a5)
+        ;
+
+        
+    
+    
+            var marker_e7ed18ac33baf74aa3f52723512934b2 = L.marker(
+                [11.5751028, 104.8933442],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_5e30c5a393436661eabe7a6977162fd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af9fd89aa07b6daa5f5690c536758ed8 = $(`<div id="html_af9fd89aa07b6daa5f5690c536758ed8" style="width: 100.0%; height: 100.0%;">LeaGis Polytechnic Academy</div>`)[0];
+                popup_5e30c5a393436661eabe7a6977162fd7.setContent(html_af9fd89aa07b6daa5f5690c536758ed8);
+            
+        
+
+        marker_e7ed18ac33baf74aa3f52723512934b2.bindPopup(popup_5e30c5a393436661eabe7a6977162fd7)
+        ;
+
+        
+    
+    
+            var marker_564781c2b40f1fdc44fad0ff3b0ef22d = L.marker(
+                [11.5338411, 104.9174537],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_04c48601002fb1b22b152b41531a9221 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10b5d1476ceb24d8de702f88969482fc = $(`<div id="html_10b5d1476ceb24d8de702f88969482fc" style="width: 100.0%; height: 100.0%;">BELTEI International School (Campus 4, Phsar Doeum Thkov)</div>`)[0];
+                popup_04c48601002fb1b22b152b41531a9221.setContent(html_10b5d1476ceb24d8de702f88969482fc);
+            
+        
+
+        marker_564781c2b40f1fdc44fad0ff3b0ef22d.bindPopup(popup_04c48601002fb1b22b152b41531a9221)
+        ;
+
+        
+    
+    
+            var marker_42ff237e2f1f347ed99ce6e726041ea6 = L.marker(
+                [11.5427246, 104.9074933],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_3cf4a82b74c95dd80d969fbb558f4238 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70b564134ddc8d72284ccacb48f4e42f = $(`<div id="html_70b564134ddc8d72284ccacb48f4e42f" style="width: 100.0%; height: 100.0%;">សាលាអន្តរជាតិអាស៊ាន</div>`)[0];
+                popup_3cf4a82b74c95dd80d969fbb558f4238.setContent(html_70b564134ddc8d72284ccacb48f4e42f);
+            
+        
+
+        marker_42ff237e2f1f347ed99ce6e726041ea6.bindPopup(popup_3cf4a82b74c95dd80d969fbb558f4238)
+        ;
+
+        
+    
+    
+            var marker_458ab90cf42b0ad0db16c4a1d534ec63 = L.marker(
+                [11.5603718, 104.9189253],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_3e33683fa9af8521799d023da185f128 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_058f183362dbafdc64a81013a3d3989a = $(`<div id="html_058f183362dbafdc64a81013a3d3989a" style="width: 100.0%; height: 100.0%;">BELTEI International School (Campus 6, Orussey)</div>`)[0];
+                popup_3e33683fa9af8521799d023da185f128.setContent(html_058f183362dbafdc64a81013a3d3989a);
+            
+        
+
+        marker_458ab90cf42b0ad0db16c4a1d534ec63.bindPopup(popup_3e33683fa9af8521799d023da185f128)
+        ;
+
+        
+    
+    
+            var marker_51c1dcaaf7c3f2c55e217a60b1404691 = L.marker(
+                [11.5551659, 104.9016594],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_3e30276a8b1e1db9acb9df70103e91ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf1abac5bd6c48d1b1b3b9fe97657cac = $(`<div id="html_cf1abac5bd6c48d1b1b3b9fe97657cac" style="width: 100.0%; height: 100.0%;">បង ឆាយ</div>`)[0];
+                popup_3e30276a8b1e1db9acb9df70103e91ce.setContent(html_cf1abac5bd6c48d1b1b3b9fe97657cac);
+            
+        
+
+        marker_51c1dcaaf7c3f2c55e217a60b1404691.bindPopup(popup_3e30276a8b1e1db9acb9df70103e91ce)
+        ;
+
+        
+    
+    
+            var marker_b0a37a230b545331006fde874625a658 = L.marker(
+                [11.5522243, 104.9049015],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_9b87917d8b252358a0765553e93da580 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6138f5f3f96a57a7416377716954be17 = $(`<div id="html_6138f5f3f96a57a7416377716954be17" style="width: 100.0%; height: 100.0%;">MTEL International School សាលាអន្តរជាតិ អេមថេល</div>`)[0];
+                popup_9b87917d8b252358a0765553e93da580.setContent(html_6138f5f3f96a57a7416377716954be17);
+            
+        
+
+        marker_b0a37a230b545331006fde874625a658.bindPopup(popup_9b87917d8b252358a0765553e93da580)
+        ;
+
+        
+    
+    
+            var marker_f028fb7022066af7f3946661605f2da6 = L.marker(
+                [11.538073, 104.8967265],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_862e83253b53d04ac751c7d6a95acc4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_429df2bf04449335b38d26f6932f230a = $(`<div id="html_429df2bf04449335b38d26f6932f230a" style="width: 100.0%; height: 100.0%;">Neeson Cripps Academy</div>`)[0];
+                popup_862e83253b53d04ac751c7d6a95acc4b.setContent(html_429df2bf04449335b38d26f6932f230a);
+            
+        
+
+        marker_f028fb7022066af7f3946661605f2da6.bindPopup(popup_862e83253b53d04ac751c7d6a95acc4b)
+        ;
+
+        
+    
+    
+            var marker_2029dff91cfb655a564fa3eaae3a05d5 = L.marker(
+                [11.5456044, 104.9067886],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_e130306b3da789dc3bafb0126ce85127 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36af4f6b180920a31d2eb926bdfec409 = $(`<div id="html_36af4f6b180920a31d2eb926bdfec409" style="width: 100.0%; height: 100.0%;">American Intercon School (AIS): MAO TSE TONG CAMPUS, Ngin Huy Building</div>`)[0];
+                popup_e130306b3da789dc3bafb0126ce85127.setContent(html_36af4f6b180920a31d2eb926bdfec409);
+            
+        
+
+        marker_2029dff91cfb655a564fa3eaae3a05d5.bindPopup(popup_e130306b3da789dc3bafb0126ce85127)
+        ;
+
+        
+    
+    
+            var marker_b8a34f6aa776bbc924cb19d620b1e3c7 = L.marker(
+                [11.5521884, 104.8890222],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_b9b6ae474c09c3ff209a87b2cd26d132 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e01a0b7aa7a7a03dea2c1e98684b9bad = $(`<div id="html_e01a0b7aa7a7a03dea2c1e98684b9bad" style="width: 100.0%; height: 100.0%;">The Art of Living Yoga & Meditation Center</div>`)[0];
+                popup_b9b6ae474c09c3ff209a87b2cd26d132.setContent(html_e01a0b7aa7a7a03dea2c1e98684b9bad);
+            
+        
+
+        marker_b8a34f6aa776bbc924cb19d620b1e3c7.bindPopup(popup_b9b6ae474c09c3ff209a87b2cd26d132)
+        ;
+
+        
+    
+    
+            var marker_c7d8724b9743158d5067454ee9bf6a3a = L.marker(
+                [11.5471425, 104.9084178],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_5aee09e64c1b93efa28085ce6c0a363b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cc15a541bb3b3ed7e2ce4a8a60c222c = $(`<div id="html_4cc15a541bb3b3ed7e2ce4a8a60c222c" style="width: 100.0%; height: 100.0%;">TESOL House</div>`)[0];
+                popup_5aee09e64c1b93efa28085ce6c0a363b.setContent(html_4cc15a541bb3b3ed7e2ce4a8a60c222c);
+            
+        
+
+        marker_c7d8724b9743158d5067454ee9bf6a3a.bindPopup(popup_5aee09e64c1b93efa28085ce6c0a363b)
+        ;
+
+        
+    
+    
+            var marker_683d2bc65d3b15c5dc41cd6fbec6c581 = L.marker(
+                [11.5422013, 104.9073401],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_0bc6d11055b92209efb25e382daf14ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf640c17f5a82fc8aa05f453cd003db0 = $(`<div id="html_bf640c17f5a82fc8aa05f453cd003db0" style="width: 100.0%; height: 100.0%;">The Learning Lab</div>`)[0];
+                popup_0bc6d11055b92209efb25e382daf14ac.setContent(html_bf640c17f5a82fc8aa05f453cd003db0);
+            
+        
+
+        marker_683d2bc65d3b15c5dc41cd6fbec6c581.bindPopup(popup_0bc6d11055b92209efb25e382daf14ac)
+        ;
+
+        
+    
+    
+            var marker_4f9cd02f479e53797a05856f728041d5 = L.marker(
+                [11.5493245, 104.9084518],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_d126ddbbe02ac29f9807e2e58118b513 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5e72c3934d3d80a154f9ddc7ddafa0b = $(`<div id="html_a5e72c3934d3d80a154f9ddc7ddafa0b" style="width: 100.0%; height: 100.0%;">Harrods International Academy</div>`)[0];
+                popup_d126ddbbe02ac29f9807e2e58118b513.setContent(html_a5e72c3934d3d80a154f9ddc7ddafa0b);
+            
+        
+
+        marker_4f9cd02f479e53797a05856f728041d5.bindPopup(popup_d126ddbbe02ac29f9807e2e58118b513)
+        ;
+
+        
+    
+    
+            var marker_037f3196e36773f01d602c8b5692c4b9 = L.marker(
+                [11.5730112, 104.8903885],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_cb5d04306910b00b8b7ace82b946b905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3da3e65c5e07a5a8b423ab678e47753d = $(`<div id="html_3da3e65c5e07a5a8b423ab678e47753d" style="width: 100.0%; height: 100.0%;">Paññāsāstra University of Cambodia - Tuol Kork Campus</div>`)[0];
+                popup_cb5d04306910b00b8b7ace82b946b905.setContent(html_3da3e65c5e07a5a8b423ab678e47753d);
+            
+        
+
+        marker_037f3196e36773f01d602c8b5692c4b9.bindPopup(popup_cb5d04306910b00b8b7ace82b946b905)
+        ;
+
+        
+    
+    
+            var marker_8ee2a7e3db142fdc89c10ae2a1213892 = L.marker(
+                [11.567139, 104.8768907],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_4f9bf34941859eaffa58d5a05d0d81f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1cc4c32efc772ec5fda67197d69bfac = $(`<div id="html_b1cc4c32efc772ec5fda67197d69bfac" style="width: 100.0%; height: 100.0%;">National Technical Training Institute (NTTI)</div>`)[0];
+                popup_4f9bf34941859eaffa58d5a05d0d81f7.setContent(html_b1cc4c32efc772ec5fda67197d69bfac);
+            
+        
+
+        marker_8ee2a7e3db142fdc89c10ae2a1213892.bindPopup(popup_4f9bf34941859eaffa58d5a05d0d81f7)
+        ;
+
+        
+    
+    
+            var marker_d968ed6e737d3db5ffe828b6c3c05025 = L.marker(
+                [11.5696011, 104.9038254],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_24ba3112d9e2dd71dcd8ca969d796d24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_900d5402f69d9371dada62a12abecde1 = $(`<div id="html_900d5402f69d9371dada62a12abecde1" style="width: 100.0%; height: 100.0%;">Paññāsāstra University of Cambodia (PUC)</div>`)[0];
+                popup_24ba3112d9e2dd71dcd8ca969d796d24.setContent(html_900d5402f69d9371dada62a12abecde1);
+            
+        
+
+        marker_d968ed6e737d3db5ffe828b6c3c05025.bindPopup(popup_24ba3112d9e2dd71dcd8ca969d796d24)
+        ;
+
+        
+    
+    
+            var marker_74f87ccddb2393d4f43fb1660aebba64 = L.marker(
+                [11.5342384, 104.9229612],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_820dc6048e1c1de03f406c7df2a500c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_827a817705acb78da594a3f9ffa7d211 = $(`<div id="html_827a817705acb78da594a3f9ffa7d211" style="width: 100.0%; height: 100.0%;">Raffles International College</div>`)[0];
+                popup_820dc6048e1c1de03f406c7df2a500c6.setContent(html_827a817705acb78da594a3f9ffa7d211);
+            
+        
+
+        marker_74f87ccddb2393d4f43fb1660aebba64.bindPopup(popup_820dc6048e1c1de03f406c7df2a500c6)
+        ;
+
+        
+    
+    
+            var marker_b64b90c6016e1bdeb8203149a2f1039d = L.marker(
+                [11.5542549, 104.9039837],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_ad3962e5141df82d7c336e86e69fbb6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fbba3e17c3439abafe2be9b80c0f613 = $(`<div id="html_8fbba3e17c3439abafe2be9b80c0f613" style="width: 100.0%; height: 100.0%;">សកលវិទ្យាល័យ​ ចេនឡា ផ្សារដើមគរ</div>`)[0];
+                popup_ad3962e5141df82d7c336e86e69fbb6f.setContent(html_8fbba3e17c3439abafe2be9b80c0f613);
+            
+        
+
+        marker_b64b90c6016e1bdeb8203149a2f1039d.bindPopup(popup_ad3962e5141df82d7c336e86e69fbb6f)
+        ;
+
+        
+    
+    
+            var marker_795f9d215a4416c1e5e610dde4fc01c9 = L.marker(
+                [11.5740936, 104.8774762],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_0c5e1a4dc39ad096a9a66a925773b615 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_232f92530f6f9c66e1e80f5d2647b9b8 = $(`<div id="html_232f92530f6f9c66e1e80f5d2647b9b8" style="width: 100.0%; height: 100.0%;">International University</div>`)[0];
+                popup_0c5e1a4dc39ad096a9a66a925773b615.setContent(html_232f92530f6f9c66e1e80f5d2647b9b8);
+            
+        
+
+        marker_795f9d215a4416c1e5e610dde4fc01c9.bindPopup(popup_0c5e1a4dc39ad096a9a66a925773b615)
+        ;
+
+        
+    
+    
+            var marker_52420055ff90b14bd048683256278e1b = L.marker(
+                [11.5912491, 104.8995135],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_bf854ac323b9c7b6576bf5927aebb834 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96f5d37f511e01696c28638b7d37138b = $(`<div id="html_96f5d37f511e01696c28638b7d37138b" style="width: 100.0%; height: 100.0%;">Cambodian University for Specialties</div>`)[0];
+                popup_bf854ac323b9c7b6576bf5927aebb834.setContent(html_96f5d37f511e01696c28638b7d37138b);
+            
+        
+
+        marker_52420055ff90b14bd048683256278e1b.bindPopup(popup_bf854ac323b9c7b6576bf5927aebb834)
+        ;
+
+        
+    
+    
+            var marker_8021ed3c70a865eb353f4a5f3f52b529 = L.marker(
+                [11.5660478, 104.8953416],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_24ce9001b57e48d689b5651a1242dac7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_495153757d03309a1c310651e694c6f6 = $(`<div id="html_495153757d03309a1c310651e694c6f6" style="width: 100.0%; height: 100.0%;">Asia Euro University</div>`)[0];
+                popup_24ce9001b57e48d689b5651a1242dac7.setContent(html_495153757d03309a1c310651e694c6f6);
+            
+        
+
+        marker_8021ed3c70a865eb353f4a5f3f52b529.bindPopup(popup_24ce9001b57e48d689b5651a1242dac7)
+        ;
+
+        
+    
+    
+            var marker_69535a94c8467c1c6a7b7d77be869288 = L.marker(
+                [11.5573983, 104.887081],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_2c672cfa07f3df8322b5b8dff325d6e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5051e7a6932c84ec2b4b28380dbb5e00 = $(`<div id="html_5051e7a6932c84ec2b4b28380dbb5e00" style="width: 100.0%; height: 100.0%;">Cambodian Mekong University (CMU)</div>`)[0];
+                popup_2c672cfa07f3df8322b5b8dff325d6e3.setContent(html_5051e7a6932c84ec2b4b28380dbb5e00);
+            
+        
+
+        marker_69535a94c8467c1c6a7b7d77be869288.bindPopup(popup_2c672cfa07f3df8322b5b8dff325d6e3)
+        ;
+
+        
+    
+    
+            var marker_9a9792512616133b90925007af072b50 = L.marker(
+                [11.5729697, 104.9230339],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_33964f53eb60856d5a3bd2f01653ca14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a61807cc83aeb25e5948b37172d2329a = $(`<div id="html_a61807cc83aeb25e5948b37172d2329a" style="width: 100.0%; height: 100.0%;">CamEd Business School</div>`)[0];
+                popup_33964f53eb60856d5a3bd2f01653ca14.setContent(html_a61807cc83aeb25e5948b37172d2329a);
+            
+        
+
+        marker_9a9792512616133b90925007af072b50.bindPopup(popup_33964f53eb60856d5a3bd2f01653ca14)
+        ;
+
+        
+    
+    
+            var marker_a8d1db1fe247f389a6c8c190a2223f50 = L.marker(
+                [11.5668786, 104.9024237],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_126a8eb2892f523d57e41dc2bd884793 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef353e798d4059a03f53f710c75b7552 = $(`<div id="html_ef353e798d4059a03f53f710c75b7552" style="width: 100.0%; height: 100.0%;">University of Economics and Finance</div>`)[0];
+                popup_126a8eb2892f523d57e41dc2bd884793.setContent(html_ef353e798d4059a03f53f710c75b7552);
+            
+        
+
+        marker_a8d1db1fe247f389a6c8c190a2223f50.bindPopup(popup_126a8eb2892f523d57e41dc2bd884793)
+        ;
+
+        
+    
+    
+            var marker_00c5fc1a72d91157c31454adbd3b9894 = L.marker(
+                [11.5608322, 104.9215924],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_7439415d2fbcfb17739a4df91ac17428 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f67e2a410d49e532be26d091d843c294 = $(`<div id="html_f67e2a410d49e532be26d091d843c294" style="width: 100.0%; height: 100.0%;">Paññāsāstra University of Cambodia(PUC) - West Campus</div>`)[0];
+                popup_7439415d2fbcfb17739a4df91ac17428.setContent(html_f67e2a410d49e532be26d091d843c294);
+            
+        
+
+        marker_00c5fc1a72d91157c31454adbd3b9894.bindPopup(popup_7439415d2fbcfb17739a4df91ac17428)
+        ;
+
+        
+    
+    
+            var marker_f2cecd9454748ce9b9314a9728f76bf4 = L.marker(
+                [11.5487949, 104.922207],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_e2c3f248b9c4c96e133f604d221987fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64582178b487a183de7366b434a6e09b = $(`<div id="html_64582178b487a183de7366b434a6e09b" style="width: 100.0%; height: 100.0%;">National Institute of Statistics (NIS)</div>`)[0];
+                popup_e2c3f248b9c4c96e133f604d221987fc.setContent(html_64582178b487a183de7366b434a6e09b);
+            
+        
+
+        marker_f2cecd9454748ce9b9314a9728f76bf4.bindPopup(popup_e2c3f248b9c4c96e133f604d221987fc)
+        ;
+
+        
+    
+    
+            var marker_30475e2cca6bdf12adc109520cc6033d = L.marker(
+                [11.533553, 104.9160986],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_90593905a0193cc4d00f758996f6eb96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38a9c07251678f183648c9ccd8f44784 = $(`<div id="html_38a9c07251678f183648c9ccd8f44784" style="width: 100.0%; height: 100.0%;">Xtechno</div>`)[0];
+                popup_90593905a0193cc4d00f758996f6eb96.setContent(html_38a9c07251678f183648c9ccd8f44784);
+            
+        
+
+        marker_30475e2cca6bdf12adc109520cc6033d.bindPopup(popup_90593905a0193cc4d00f758996f6eb96)
+        ;
+
+        
+    
+    
+            var marker_30977921ae6cd5c3a800883acd81ddc1 = L.marker(
+                [11.5424951, 104.8933999],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_95d68f322d40c882782feb5fa78b1dec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21180de0176f7e698d8fb7e07527b694 = $(`<div id="html_21180de0176f7e698d8fb7e07527b694" style="width: 100.0%; height: 100.0%;">Cambodian University for Specialties</div>`)[0];
+                popup_95d68f322d40c882782feb5fa78b1dec.setContent(html_21180de0176f7e698d8fb7e07527b694);
+            
+        
+
+        marker_30977921ae6cd5c3a800883acd81ddc1.bindPopup(popup_95d68f322d40c882782feb5fa78b1dec)
+        ;
+
+        
+    
+    
+            var marker_8d5fb0393504cbc775167d3665fce9a2 = L.marker(
+                [11.5596117, 104.8991454],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_0dc325f8fa650f735a0cf2e0607b0dd6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4800a3c7f1f3d7c45f777b11e845a885 = $(`<div id="html_4800a3c7f1f3d7c45f777b11e845a885" style="width: 100.0%; height: 100.0%;">Panha Chiet University</div>`)[0];
+                popup_0dc325f8fa650f735a0cf2e0607b0dd6.setContent(html_4800a3c7f1f3d7c45f777b11e845a885);
+            
+        
+
+        marker_8d5fb0393504cbc775167d3665fce9a2.bindPopup(popup_0dc325f8fa650f735a0cf2e0607b0dd6)
+        ;
+
+        
+    
+    
+            var marker_d4746a96e96480542fb7b650fc6a5961 = L.marker(
+                [11.5393854, 104.8866719],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_0f175834c2ad827ecb90d56be22d8707 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff1842423bdf025fee69998435413b30 = $(`<div id="html_ff1842423bdf025fee69998435413b30" style="width: 100.0%; height: 100.0%;">AGA Institute-AI វិទ្យាស្ថានអាហ្កា-វ.អ</div>`)[0];
+                popup_0f175834c2ad827ecb90d56be22d8707.setContent(html_ff1842423bdf025fee69998435413b30);
+            
+        
+
+        marker_d4746a96e96480542fb7b650fc6a5961.bindPopup(popup_0f175834c2ad827ecb90d56be22d8707)
+        ;
+
+        
+    
+    
+            var marker_df0d870cbaa7eedb895441cbd802f40d = L.marker(
+                [11.564774, 104.8961174],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_60fdbf63c9d3a2230bf20afcdf380da8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b5df71268ee56737cf097fdbc4d7dcc = $(`<div id="html_2b5df71268ee56737cf097fdbc4d7dcc" style="width: 100.0%; height: 100.0%;">Asia Euro University (AEU) Gold Building</div>`)[0];
+                popup_60fdbf63c9d3a2230bf20afcdf380da8.setContent(html_2b5df71268ee56737cf097fdbc4d7dcc);
+            
+        
+
+        marker_df0d870cbaa7eedb895441cbd802f40d.bindPopup(popup_60fdbf63c9d3a2230bf20afcdf380da8)
+        ;
+
+        
+    
+    
+            var marker_24665b2e19dce2cd066583f9665947ee = L.marker(
+                [11.5664243, 104.8965818],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_2cd13565e66123581a0844bbb116cca4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e4268e9c21c34d60a4e612508bb7f32 = $(`<div id="html_6e4268e9c21c34d60a4e612508bb7f32" style="width: 100.0%; height: 100.0%;">CHAMROEUN UNIVERSITY OF POLY--TECHNOLOGY (CUP) សាកលវិទ្យាល័យ ចំរើនពហុបច្ចេកវិទ្យា</div>`)[0];
+                popup_2cd13565e66123581a0844bbb116cca4.setContent(html_6e4268e9c21c34d60a4e612508bb7f32);
+            
+        
+
+        marker_24665b2e19dce2cd066583f9665947ee.bindPopup(popup_2cd13565e66123581a0844bbb116cca4)
+        ;
+
+        
+    
+    
+            var marker_c4dbfa5981cc5393e68a423452d95056 = L.marker(
+                [11.5702689, 104.897482],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_0f17d14ef99bab8a4010125e943a39c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b2d7fd01fff5cdccd60b20abbf719f8 = $(`<div id="html_1b2d7fd01fff5cdccd60b20abbf719f8" style="width: 100.0%; height: 100.0%;">Central Library of ITC</div>`)[0];
+                popup_0f17d14ef99bab8a4010125e943a39c7.setContent(html_1b2d7fd01fff5cdccd60b20abbf719f8);
+            
+        
+
+        marker_c4dbfa5981cc5393e68a423452d95056.bindPopup(popup_0f17d14ef99bab8a4010125e943a39c7)
+        ;
+
+        
+    
+    
+            var marker_bd0e3f60645e3fcbd6c7356c5b0f9500 = L.marker(
+                [11.5683247, 104.8890192],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_1fa025f5f23eba933f94f6a458850a2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab5cc836b8344126e7913813e5b3b83b = $(`<div id="html_ab5cc836b8344126e7913813e5b3b83b" style="width: 100.0%; height: 100.0%;">Hun Sen Library</div>`)[0];
+                popup_1fa025f5f23eba933f94f6a458850a2b.setContent(html_ab5cc836b8344126e7913813e5b3b83b);
+            
+        
+
+        marker_bd0e3f60645e3fcbd6c7356c5b0f9500.bindPopup(popup_1fa025f5f23eba933f94f6a458850a2b)
+        ;
+
+        
+    
+    
+            var marker_37ff0a9b1d89acc60fd515a03806bfd5 = L.marker(
+                [11.5621865, 104.9208616],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_6d33c9bc20fb95b373db960c6b5198a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_402dbf7eb0ba77bf8806fe6a01bbef38 = $(`<div id="html_402dbf7eb0ba77bf8806fe6a01bbef38" style="width: 100.0%; height: 100.0%;">Institut français du Cambodge (IFC)</div>`)[0];
+                popup_6d33c9bc20fb95b373db960c6b5198a2.setContent(html_402dbf7eb0ba77bf8806fe6a01bbef38);
+            
+        
+
+        marker_37ff0a9b1d89acc60fd515a03806bfd5.bindPopup(popup_6d33c9bc20fb95b373db960c6b5198a2)
+        ;
+
+        
+    
+    
+            var marker_b8b7b32091c7b8e44da04c2149bd8cc5 = L.marker(
+                [11.5688556, 104.8938587],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_2090c7591de4839a1ab30854ef96c347 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1335648bb8c705ba17316d73036aad2 = $(`<div id="html_a1335648bb8c705ba17316d73036aad2" style="width: 100.0%; height: 100.0%;">CJCC Library</div>`)[0];
+                popup_2090c7591de4839a1ab30854ef96c347.setContent(html_a1335648bb8c705ba17316d73036aad2);
+            
+        
+
+        marker_b8b7b32091c7b8e44da04c2149bd8cc5.bindPopup(popup_2090c7591de4839a1ab30854ef96c347)
+        ;
+
+        
+    
+    
+            var marker_1a0e9dc330d7b6e210f7e57a154ac571 = L.marker(
+                [11.5354447, 104.9247834],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_945e14c2b819ffe4ce62b98960080c11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0862f9f0792bca11f145b1fcd3c5a22 = $(`<div id="html_a0862f9f0792bca11f145b1fcd3c5a22" style="width: 100.0%; height: 100.0%;">RULE Library</div>`)[0];
+                popup_945e14c2b819ffe4ce62b98960080c11.setContent(html_a0862f9f0792bca11f145b1fcd3c5a22);
+            
+        
+
+        marker_1a0e9dc330d7b6e210f7e57a154ac571.bindPopup(popup_945e14c2b819ffe4ce62b98960080c11)
+        ;
+
+        
+    
+    
+            var marker_d7e3c7a905d3eac7e2a3c79e67c94d69 = L.marker(
+                [11.5413068, 104.9270273],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_9ba7efcc27b9dc6c8cb776d01821c0f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab1fb1b0cb47d4a1ecb5ff0928fc93a5 = $(`<div id="html_ab1fb1b0cb47d4a1ecb5ff0928fc93a5" style="width: 100.0%; height: 100.0%;">បណ្ណាល័យ</div>`)[0];
+                popup_9ba7efcc27b9dc6c8cb776d01821c0f0.setContent(html_ab1fb1b0cb47d4a1ecb5ff0928fc93a5);
+            
+        
+
+        marker_d7e3c7a905d3eac7e2a3c79e67c94d69.bindPopup(popup_9ba7efcc27b9dc6c8cb776d01821c0f0)
+        ;
+
+        
+    
+    
+            var marker_ff93d5f85977c26b69f950feb5bd2adf = L.marker(
+                [11.5503318, 104.9286087],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_39d66ba83503ff5d2fb632484fd6acec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c264f592892e74045229b01712e498e6 = $(`<div id="html_c264f592892e74045229b01712e498e6" style="width: 100.0%; height: 100.0%;">គ្រឹះស្ថានបោះពុម្ព និងចែកផ្សាយ</div>`)[0];
+                popup_39d66ba83503ff5d2fb632484fd6acec.setContent(html_c264f592892e74045229b01712e498e6);
+            
+        
+
+        marker_ff93d5f85977c26b69f950feb5bd2adf.bindPopup(popup_39d66ba83503ff5d2fb632484fd6acec)
+        ;
+
+        
+    
+    
+            var marker_89bfd797f5c85fcc425b625ae176c265 = L.marker(
+                [11.5764447, 104.9195935],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_900937834c3fee992fc71dea0afa2931 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b97a5d13a9cf420143516a3ce5ddc2ae = $(`<div id="html_b97a5d13a9cf420143516a3ce5ddc2ae" style="width: 100.0%; height: 100.0%;">National Library</div>`)[0];
+                popup_900937834c3fee992fc71dea0afa2931.setContent(html_b97a5d13a9cf420143516a3ce5ddc2ae);
+            
+        
+
+        marker_89bfd797f5c85fcc425b625ae176c265.bindPopup(popup_900937834c3fee992fc71dea0afa2931)
+        ;
+
+        
+    
+    
+            var marker_9d50766be61ffe0e3b6f48f66fa0a9d5 = L.marker(
+                [11.58296, 104.862114],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_cc8a814af8b34a58cb874c33771a34a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79f4d66a037111c872d1fd21f6e12a1e = $(`<div id="html_79f4d66a037111c872d1fd21f6e12a1e" style="width: 100.0%; height: 100.0%;">EurekaMag.com</div>`)[0];
+                popup_cc8a814af8b34a58cb874c33771a34a1.setContent(html_79f4d66a037111c872d1fd21f6e12a1e);
+            
+        
+
+        marker_9d50766be61ffe0e3b6f48f66fa0a9d5.bindPopup(popup_cc8a814af8b34a58cb874c33771a34a1)
+        ;
+
+        
+    
+    
+            var marker_854032f74d9842aa0c1a8f9b4df0eb51 = L.marker(
+                [11.5454252, 104.8989669],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_29a4f40bc3b741fefc8d42b6c0d7d4fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad43b2c569535ceb5e2f1d3716af4388 = $(`<div id="html_ad43b2c569535ceb5e2f1d3716af4388" style="width: 100.0%; height: 100.0%;">សម្រង់សម្ដី</div>`)[0];
+                popup_29a4f40bc3b741fefc8d42b6c0d7d4fc.setContent(html_ad43b2c569535ceb5e2f1d3716af4388);
+            
+        
+
+        marker_854032f74d9842aa0c1a8f9b4df0eb51.bindPopup(popup_29a4f40bc3b741fefc8d42b6c0d7d4fc)
+        ;
+
+        
+    
+    
+            var marker_955f6965a0712d68cfe86cc5fb6e5bcb = L.marker(
+                [11.5539843, 104.9035466],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_65b8dca605c403b9fae5bca925051c78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9129a12af171faa3ad7f9a561c8620a = $(`<div id="html_d9129a12af171faa3ad7f9a561c8620a" style="width: 100.0%; height: 100.0%;">Legal Regulation in Education</div>`)[0];
+                popup_65b8dca605c403b9fae5bca925051c78.setContent(html_d9129a12af171faa3ad7f9a561c8620a);
+            
+        
+
+        marker_955f6965a0712d68cfe86cc5fb6e5bcb.bindPopup(popup_65b8dca605c403b9fae5bca925051c78)
+        ;
+
+        
+    
+    
+            var marker_99f1040ddc2ee411c035901faaf29ef8 = L.marker(
+                [11.5582736, 104.8873986],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_a2c22853e73a928071585a3f30e89745 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08ba3ded79c3219cd18e7c7354a2b20f = $(`<div id="html_08ba3ded79c3219cd18e7c7354a2b20f" style="width: 100.0%; height: 100.0%;">BroCheaBrey</div>`)[0];
+                popup_a2c22853e73a928071585a3f30e89745.setContent(html_08ba3ded79c3219cd18e7c7354a2b20f);
+            
+        
+
+        marker_99f1040ddc2ee411c035901faaf29ef8.bindPopup(popup_a2c22853e73a928071585a3f30e89745)
+        ;
+
+        
+    
+    
+            var marker_51e6ced0c60e8d0f6157266879a039d2 = L.marker(
+                [11.5519412, 104.9121351],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_fbf268f8bab69dec98339a0cd5b2f75c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_518120b75c554ddd41d9f98b13d767c0 = $(`<div id="html_518120b75c554ddd41d9f98b13d767c0" style="width: 100.0%; height: 100.0%;">បណ្ណាល័យសំរាម - Bannalai Samram</div>`)[0];
+                popup_fbf268f8bab69dec98339a0cd5b2f75c.setContent(html_518120b75c554ddd41d9f98b13d767c0);
+            
+        
+
+        marker_51e6ced0c60e8d0f6157266879a039d2.bindPopup(popup_fbf268f8bab69dec98339a0cd5b2f75c)
+        ;
+
+        
+    
+    
+            var marker_4b949c7391a58d9d863e8801918d87dc = L.marker(
+                [11.551993, 104.9121728],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_9dde0b3577e31b01f9b2032e92dee471 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_186ad9e10047863f29b81227a299391f = $(`<div id="html_186ad9e10047863f29b81227a299391f" style="width: 100.0%; height: 100.0%;">Scholar Library</div>`)[0];
+                popup_9dde0b3577e31b01f9b2032e92dee471.setContent(html_186ad9e10047863f29b81227a299391f);
+            
+        
+
+        marker_4b949c7391a58d9d863e8801918d87dc.bindPopup(popup_9dde0b3577e31b01f9b2032e92dee471)
+        ;
+
+        
+    
+    
+            var marker_45735d146e94a3137b3efbe9fce47c94 = L.marker(
+                [11.5552617, 104.9137221],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_d8894906ca1986ec2b36796606186d92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7db6c67fee8dcc84a8d64a6038434200 = $(`<div id="html_7db6c67fee8dcc84a8d64a6038434200" style="width: 100.0%; height: 100.0%;">បណ្ណាល័យគំនិត Idea Library</div>`)[0];
+                popup_d8894906ca1986ec2b36796606186d92.setContent(html_7db6c67fee8dcc84a8d64a6038434200);
+            
+        
+
+        marker_45735d146e94a3137b3efbe9fce47c94.bindPopup(popup_d8894906ca1986ec2b36796606186d92)
+        ;
+
+        
+    
+    
+            var marker_68b942e4a6edf1f85af2b6193039d7b0 = L.marker(
+                [11.5702795, 104.9116069],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_8174453378b4ef6a634ebacc07fa4ae5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6dd58502950ccdceff7d2e3de142482 = $(`<div id="html_d6dd58502950ccdceff7d2e3de142482" style="width: 100.0%; height: 100.0%;">បណ្ណាល័យនៃមជ្ឈមណ្ឌលធនធាន អ.វ.ត.ក.</div>`)[0];
+                popup_8174453378b4ef6a634ebacc07fa4ae5.setContent(html_d6dd58502950ccdceff7d2e3de142482);
+            
+        
+
+        marker_68b942e4a6edf1f85af2b6193039d7b0.bindPopup(popup_8174453378b4ef6a634ebacc07fa4ae5)
+        ;
+
+        
+    
+    
+            var marker_ebfc8e521be7fe1fc2621d03ebe645db = L.marker(
+                [11.5703218, 104.9117695],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_f3613bd5ebc80414a803a51f66448546 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_163a78169af0ffa168a0ad0b2d624035 = $(`<div id="html_163a78169af0ffa168a0ad0b2d624035" style="width: 100.0%; height: 100.0%;">Legal Documentation Centre relating to the Extraordinary Chambers in the Courts of Cambodia (LDC)</div>`)[0];
+                popup_f3613bd5ebc80414a803a51f66448546.setContent(html_163a78169af0ffa168a0ad0b2d624035);
+            
+        
+
+        marker_ebfc8e521be7fe1fc2621d03ebe645db.bindPopup(popup_f3613bd5ebc80414a803a51f66448546)
+        ;
+
+        
+    
+    
+            var marker_9839511e8186720b75ecbed8b734c646 = L.marker(
+                [11.5625806, 104.9202799],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_6e410c1f5eeb89649107db2cf0939848 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faa5949bc6b31eb479926c9a8016f5c6 = $(`<div id="html_faa5949bc6b31eb479926c9a8016f5c6" style="width: 100.0%; height: 100.0%;">Library</div>`)[0];
+                popup_6e410c1f5eeb89649107db2cf0939848.setContent(html_faa5949bc6b31eb479926c9a8016f5c6);
+            
+        
+
+        marker_9839511e8186720b75ecbed8b734c646.bindPopup(popup_6e410c1f5eeb89649107db2cf0939848)
+        ;
+
+        
+    
+    
+            var marker_5091879a12946dedd1dd95b76a21349a = L.marker(
+                [11.5622953, 104.9209505],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_3d1777b12462b12605531d1886a0f036 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62b23766044eea0518384e366078ae44 = $(`<div id="html_62b23766044eea0518384e366078ae44" style="width: 100.0%; height: 100.0%;">បណ្ណាល័យពហុឯកសារ</div>`)[0];
+                popup_3d1777b12462b12605531d1886a0f036.setContent(html_62b23766044eea0518384e366078ae44);
+            
+        
+
+        marker_5091879a12946dedd1dd95b76a21349a.bindPopup(popup_3d1777b12462b12605531d1886a0f036)
+        ;
+
+        
+    
+    
+            var marker_a71aecfdb0fa433d884f0563e466b4b2 = L.marker(
+                [11.5599603, 104.9279488],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_a1542122ae64becee70212f76497c728 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4aef765efbe4cbc3dc3ab90198290d6d = $(`<div id="html_4aef765efbe4cbc3dc3ab90198290d6d" style="width: 100.0%; height: 100.0%;">D's Books (Cambodia)</div>`)[0];
+                popup_a1542122ae64becee70212f76497c728.setContent(html_4aef765efbe4cbc3dc3ab90198290d6d);
+            
+        
+
+        marker_a71aecfdb0fa433d884f0563e466b4b2.bindPopup(popup_a1542122ae64becee70212f76497c728)
+        ;
+
+        
+    
+    
+            var marker_f36cdefcf31bc0c4764f557b6307e3dd = L.marker(
+                [11.55016, 104.9297167],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_3be398dd7d43efbe003654aebd6de365 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b04491e692da7459716621d99505253 = $(`<div id="html_9b04491e692da7459716621d99505253" style="width: 100.0%; height: 100.0%;">Sipar Books</div>`)[0];
+                popup_3be398dd7d43efbe003654aebd6de365.setContent(html_9b04491e692da7459716621d99505253);
+            
+        
+
+        marker_f36cdefcf31bc0c4764f557b6307e3dd.bindPopup(popup_3be398dd7d43efbe003654aebd6de365)
+        ;
+
+        
+    
+    
+            var marker_9274cca6e182b28a264a034d8f569eb4 = L.marker(
+                [11.5486081, 104.8994121],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_471bff295ff7ce6cc234b86df3220a8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a8f179bf76774513ea6dd947f80996f = $(`<div id="html_5a8f179bf76774513ea6dd947f80996f" style="width: 100.0%; height: 100.0%;">Komnit Book Center</div>`)[0];
+                popup_471bff295ff7ce6cc234b86df3220a8a.setContent(html_5a8f179bf76774513ea6dd947f80996f);
+            
+        
+
+        marker_9274cca6e182b28a264a034d8f569eb4.bindPopup(popup_471bff295ff7ce6cc234b86df3220a8a)
+        ;
+
+        
+    
+    
+            var marker_ad2d9781733bc2aba2aa78697aa9f714 = L.marker(
+                [11.564516, 104.907372],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_e543baddc9874ba7fbbe57f8f4ed1742 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b68023d2555412d066332ca3381a848 = $(`<div id="html_0b68023d2555412d066332ca3381a848" style="width: 100.0%; height: 100.0%;">ទស្សនាវដ្តី ទីក្រុងទូរស័ព្ទ</div>`)[0];
+                popup_e543baddc9874ba7fbbe57f8f4ed1742.setContent(html_0b68023d2555412d066332ca3381a848);
+            
+        
+
+        marker_ad2d9781733bc2aba2aa78697aa9f714.bindPopup(popup_e543baddc9874ba7fbbe57f8f4ed1742)
+        ;
+
+        
+    
+    
+            var marker_0d22eb559f3e23dc3ed7b865ff0fd690 = L.marker(
+                [11.5685774, 104.9036795],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_1069e9451e88806135bf5039f71e3b74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_415d107898502554dff84aaf97072d4e = $(`<div id="html_415d107898502554dff84aaf97072d4e" style="width: 100.0%; height: 100.0%;">LONG LEARNING CO., LTD</div>`)[0];
+                popup_1069e9451e88806135bf5039f71e3b74.setContent(html_415d107898502554dff84aaf97072d4e);
+            
+        
+
+        marker_0d22eb559f3e23dc3ed7b865ff0fd690.bindPopup(popup_1069e9451e88806135bf5039f71e3b74)
+        ;
+
+        
+    
+    
+            var marker_127f65e33d1afb7013f5a819951594b9 = L.marker(
+                [11.5699274, 104.9062602],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_fd398277fc058c5fc83e14778fd71ee3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_250baf45c268cb0b923e1906a9013c45 = $(`<div id="html_250baf45c268cb0b923e1906a9013c45" style="width: 100.0%; height: 100.0%;">Family Bookstore</div>`)[0];
+                popup_fd398277fc058c5fc83e14778fd71ee3.setContent(html_250baf45c268cb0b923e1906a9013c45);
+            
+        
+
+        marker_127f65e33d1afb7013f5a819951594b9.bindPopup(popup_fd398277fc058c5fc83e14778fd71ee3)
+        ;
+
+        
+    
+    
+            var marker_1b615b6048a8e2b14f0e51b488bac1bc = L.marker(
+                [11.5722131, 104.8902602],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_88fee8e301e3a69543667cf222187077 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_704ead054b19e6c936c57e0972728619 = $(`<div id="html_704ead054b19e6c936c57e0972728619" style="width: 100.0%; height: 100.0%;">ANT Technology Training Center</div>`)[0];
+                popup_88fee8e301e3a69543667cf222187077.setContent(html_704ead054b19e6c936c57e0972728619);
+            
+        
+
+        marker_1b615b6048a8e2b14f0e51b488bac1bc.bindPopup(popup_88fee8e301e3a69543667cf222187077)
+        ;
+
+        
+    
+    
+            var marker_bb810d1f278bfcd6ec31f4d6e4f5b9ea = L.marker(
+                [11.565635, 104.9194169],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_4d5786a058d3c57011025ea37ed96b42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bcd5ef56a6562a7b1abfa7b1c0ea6fd = $(`<div id="html_5bcd5ef56a6562a7b1abfa7b1c0ea6fd" style="width: 100.0%; height: 100.0%;">International Book Center</div>`)[0];
+                popup_4d5786a058d3c57011025ea37ed96b42.setContent(html_5bcd5ef56a6562a7b1abfa7b1c0ea6fd);
+            
+        
+
+        marker_bb810d1f278bfcd6ec31f4d6e4f5b9ea.bindPopup(popup_4d5786a058d3c57011025ea37ed96b42)
+        ;
+
+        
+    
+    
+            var marker_c9664aec61a4f44b95d16c05036efc9f = L.marker(
+                [11.5562994, 104.9340573],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_3169c58f4b921471e307cd87916c8eff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1662d6414cf13fc3f5bf47fcbcd63e6f = $(`<div id="html_1662d6414cf13fc3f5bf47fcbcd63e6f" style="width: 100.0%; height: 100.0%;">ទស្សនាវដ្តី ស៊ីធី ឡាហ្វ</div>`)[0];
+                popup_3169c58f4b921471e307cd87916c8eff.setContent(html_1662d6414cf13fc3f5bf47fcbcd63e6f);
+            
+        
+
+        marker_c9664aec61a4f44b95d16c05036efc9f.bindPopup(popup_3169c58f4b921471e307cd87916c8eff)
+        ;
+
+        
+    
+    
+            var marker_855616276ae31e29d007c7fbf845b61e = L.marker(
+                [11.4815324, 104.9466965],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_d1bcd49e610e5d106e041ae9fd46f58e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e70dc6dfcef8f66dfa8bbf782945a78 = $(`<div id="html_9e70dc6dfcef8f66dfa8bbf782945a78" style="width: 100.0%; height: 100.0%;">បណ្ណាគារ​សេរីភាព (ក្រុង តាខ្មៅ)</div>`)[0];
+                popup_d1bcd49e610e5d106e041ae9fd46f58e.setContent(html_9e70dc6dfcef8f66dfa8bbf782945a78);
+            
+        
+
+        marker_855616276ae31e29d007c7fbf845b61e.bindPopup(popup_d1bcd49e610e5d106e041ae9fd46f58e)
+        ;
+
+        
+    
+    
+            var marker_37fff8d0b261445bd245c83bdeceb9d1 = L.marker(
+                [11.559847, 104.9270159],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_05149f8a9f6b9958262eaeb0dc34946f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4191f3c56026054b69fc3a3e0ff30782 = $(`<div id="html_4191f3c56026054b69fc3a3e0ff30782" style="width: 100.0%; height: 100.0%;">Monument Books</div>`)[0];
+                popup_05149f8a9f6b9958262eaeb0dc34946f.setContent(html_4191f3c56026054b69fc3a3e0ff30782);
+            
+        
+
+        marker_37fff8d0b261445bd245c83bdeceb9d1.bindPopup(popup_05149f8a9f6b9958262eaeb0dc34946f)
+        ;
+
+        
+    
+    
+            var marker_07e12215d1e384a6ca01393e9ff3a5a8 = L.marker(
+                [11.5494076, 104.8960149],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_803ec13d9e8f062096f7383023d1857c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b16e968ce108767dff6041d8b8c6aade = $(`<div id="html_b16e968ce108767dff6041d8b8c6aade" style="width: 100.0%; height: 100.0%;">TK ធីខេ អូតូខា 888</div>`)[0];
+                popup_803ec13d9e8f062096f7383023d1857c.setContent(html_b16e968ce108767dff6041d8b8c6aade);
+            
+        
+
+        marker_07e12215d1e384a6ca01393e9ff3a5a8.bindPopup(popup_803ec13d9e8f062096f7383023d1857c)
+        ;
+
+        
+    
+    
+            var marker_ed3f63516ad45aff1b170dc8bcb32b51 = L.marker(
+                [11.5445382, 104.8981248],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_ed7c8771cbd6686bcee18863d1b4ecf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ef0c62cd7432cd7b176be54ddd04e5e = $(`<div id="html_4ef0c62cd7432cd7b176be54ddd04e5e" style="width: 100.0%; height: 100.0%;">B bo</div>`)[0];
+                popup_ed7c8771cbd6686bcee18863d1b4ecf2.setContent(html_4ef0c62cd7432cd7b176be54ddd04e5e);
+            
+        
+
+        marker_ed3f63516ad45aff1b170dc8bcb32b51.bindPopup(popup_ed7c8771cbd6686bcee18863d1b4ecf2)
+        ;
+
+        
+    
+    
+            var marker_ce5d7555f038ec5a229ae7f2f70c31a0 = L.marker(
+                [11.5494944, 104.8949178],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_86770d87beccb30619275737b366c35d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f372cd95696bb0ee011ad07025615d4 = $(`<div id="html_1f372cd95696bb0ee011ad07025615d4" style="width: 100.0%; height: 100.0%;">Smile10</div>`)[0];
+                popup_86770d87beccb30619275737b366c35d.setContent(html_1f372cd95696bb0ee011ad07025615d4);
+            
+        
+
+        marker_ce5d7555f038ec5a229ae7f2f70c31a0.bindPopup(popup_86770d87beccb30619275737b366c35d)
+        ;
+
+        
+    
+    
+            var marker_70228780a32eaaf4c84362f519729d78 = L.marker(
+                [11.5455625, 104.9011731],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_f2fef0fb5fa0e2228770c3bdd0474698 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb57e7079d08b68a8f71c2e4a5ae2198 = $(`<div id="html_bb57e7079d08b68a8f71c2e4a5ae2198" style="width: 100.0%; height: 100.0%;">បណ្ណាគារ អេហ្វប៊ីស៊ី</div>`)[0];
+                popup_f2fef0fb5fa0e2228770c3bdd0474698.setContent(html_bb57e7079d08b68a8f71c2e4a5ae2198);
+            
+        
+
+        marker_70228780a32eaaf4c84362f519729d78.bindPopup(popup_f2fef0fb5fa0e2228770c3bdd0474698)
+        ;
+
+        
+    
+    
+            var marker_2129df2ad1528f7d5208d08d79e47a87 = L.marker(
+                [11.5518693, 104.8968936],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_11c62da47c3d57f9442eae9109f5b7cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4daf3ad5f5a023dcdd9b3f16d565a8d6 = $(`<div id="html_4daf3ad5f5a023dcdd9b3f16d565a8d6" style="width: 100.0%; height: 100.0%;">Jeda Socute</div>`)[0];
+                popup_11c62da47c3d57f9442eae9109f5b7cf.setContent(html_4daf3ad5f5a023dcdd9b3f16d565a8d6);
+            
+        
+
+        marker_2129df2ad1528f7d5208d08d79e47a87.bindPopup(popup_11c62da47c3d57f9442eae9109f5b7cf)
+        ;
+
+        
+    
+    
+            var marker_c85c9f216245a326b9b2e9dd5d3f7a29 = L.marker(
+                [11.5432182, 104.8937676],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_3a6c7fbf2abe5b2b6e08ddf2a33d250e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0bf5ffc964f5fb868cb74654b3484d8 = $(`<div id="html_b0bf5ffc964f5fb868cb74654b3484d8" style="width: 100.0%; height: 100.0%;">Blue Shop</div>`)[0];
+                popup_3a6c7fbf2abe5b2b6e08ddf2a33d250e.setContent(html_b0bf5ffc964f5fb868cb74654b3484d8);
+            
+        
+
+        marker_c85c9f216245a326b9b2e9dd5d3f7a29.bindPopup(popup_3a6c7fbf2abe5b2b6e08ddf2a33d250e)
+        ;
+
+        
+    
+    
+            var marker_fddd87fe7e99cef14efc692c1ffb2d6a = L.marker(
+                [11.5430495, 104.8939268],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_03d57a5c9822c30bda49761013881123 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f34b6c90fd25c4ac50c7124e1aa3ccf = $(`<div id="html_6f34b6c90fd25c4ac50c7124e1aa3ccf" style="width: 100.0%; height: 100.0%;">PISEY MEN OUTLET SHOP B6</div>`)[0];
+                popup_03d57a5c9822c30bda49761013881123.setContent(html_6f34b6c90fd25c4ac50c7124e1aa3ccf);
+            
+        
+
+        marker_fddd87fe7e99cef14efc692c1ffb2d6a.bindPopup(popup_03d57a5c9822c30bda49761013881123)
+        ;
+
+        
+    
+    
+            var marker_6b62e912d201cf02252c202adfbfab31 = L.marker(
+                [11.4842402, 104.901276],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_793228a9885582984658b9aac4d742e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4595a033cf131d6b41230fb67db1def3 = $(`<div id="html_4595a033cf131d6b41230fb67db1def3" style="width: 100.0%; height: 100.0%;">Choeung Ek Genocidal Center</div>`)[0];
+                popup_793228a9885582984658b9aac4d742e9.setContent(html_4595a033cf131d6b41230fb67db1def3);
+            
+        
+
+        marker_6b62e912d201cf02252c202adfbfab31.bindPopup(popup_793228a9885582984658b9aac4d742e9)
+        ;
+
+        
+    
+    
+            var marker_167e050a907fa6001d928d1752018768 = L.marker(
+                [11.548851, 104.9176751],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_4abb0de002a3aec7e19c17d0d3c7bf51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adb7fc1cd547f3b8248ec25f71c84e63 = $(`<div id="html_adb7fc1cd547f3b8248ec25f71c84e63" style="width: 100.0%; height: 100.0%;">Tuol Sleng Genocide Museum</div>`)[0];
+                popup_4abb0de002a3aec7e19c17d0d3c7bf51.setContent(html_adb7fc1cd547f3b8248ec25f71c84e63);
+            
+        
+
+        marker_167e050a907fa6001d928d1752018768.bindPopup(popup_4abb0de002a3aec7e19c17d0d3c7bf51)
+        ;
+
+        
+    
+    
+            var marker_a8b667d5355d0d1b6cb0151b594156c7 = L.marker(
+                [11.5372029, 104.886396],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_9bad5de72836dc11dedd125f8b4c7a21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14ba46a614274ee5a02430e676f3c3b6 = $(`<div id="html_14ba46a614274ee5a02430e676f3c3b6" style="width: 100.0%; height: 100.0%;">2NT Company</div>`)[0];
+                popup_9bad5de72836dc11dedd125f8b4c7a21.setContent(html_14ba46a614274ee5a02430e676f3c3b6);
+            
+        
+
+        marker_a8b667d5355d0d1b6cb0151b594156c7.bindPopup(popup_9bad5de72836dc11dedd125f8b4c7a21)
+        ;
+
+        
+    
+    
+            var marker_a8104f5acfc18f46911f5a3354068eb5 = L.marker(
+                [11.5658543, 104.9291464],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_8ff727cc4888bf1e7efac8138b89439b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b74d3eea5434eb5c3c8f57820f90140 = $(`<div id="html_5b74d3eea5434eb5c3c8f57820f90140" style="width: 100.0%; height: 100.0%;">National Museum of Cambodia</div>`)[0];
+                popup_8ff727cc4888bf1e7efac8138b89439b.setContent(html_5b74d3eea5434eb5c3c8f57820f90140);
+            
+        
+
+        marker_a8104f5acfc18f46911f5a3354068eb5.bindPopup(popup_8ff727cc4888bf1e7efac8138b89439b)
+        ;
+
+        
+    
+    
+            var marker_51cbfd175d4af07b0b7cb116183de806 = L.marker(
+                [11.5501845, 104.9136615],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_e966b73b81a698bd926e72b854fa2362 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbb4378ca95a1a20797dbe98b1d22be9 = $(`<div id="html_bbb4378ca95a1a20797dbe98b1d22be9" style="width: 100.0%; height: 100.0%;">ហាក់ ងួន សិប្បកម្ម</div>`)[0];
+                popup_e966b73b81a698bd926e72b854fa2362.setContent(html_bbb4378ca95a1a20797dbe98b1d22be9);
+            
+        
+
+        marker_51cbfd175d4af07b0b7cb116183de806.bindPopup(popup_e966b73b81a698bd926e72b854fa2362)
+        ;
+
+        
+    
+    
+            var marker_ce3cde32c93854be58ddbb44161176b5 = L.marker(
+                [11.5446217, 104.9152856],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_e3b7713aef65545c834207f38270423c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90ff66886b99969818b30fa0123a1bfc = $(`<div id="html_90ff66886b99969818b30fa0123a1bfc" style="width: 100.0%; height: 100.0%;">៚ផ្ទះក្បាច់ខ្មែរ៚</div>`)[0];
+                popup_e3b7713aef65545c834207f38270423c.setContent(html_90ff66886b99969818b30fa0123a1bfc);
+            
+        
+
+        marker_ce3cde32c93854be58ddbb44161176b5.bindPopup(popup_e3b7713aef65545c834207f38270423c)
+        ;
+
+        
+    
+    
+            var marker_09736169190b2456e8f2b14afc740337 = L.marker(
+                [11.5432184, 104.9160545],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_cb2d8326cd203cf2275ec17a094c794e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec843a2c75c72c44c9a2701c30ca0113 = $(`<div id="html_ec843a2c75c72c44c9a2701c30ca0113" style="width: 100.0%; height: 100.0%;">go</div>`)[0];
+                popup_cb2d8326cd203cf2275ec17a094c794e.setContent(html_ec843a2c75c72c44c9a2701c30ca0113);
+            
+        
+
+        marker_09736169190b2456e8f2b14afc740337.bindPopup(popup_cb2d8326cd203cf2275ec17a094c794e)
+        ;
+
+        
+    
+    
+            var marker_0ec683ef4cec5d66f20d13e89ab3e390 = L.marker(
+                [11.5401309, 104.9154232],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_579695ddec94c9a1b6fde42317a45596 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7445f127d588d2e9e922e61b9a12b363 = $(`<div id="html_7445f127d588d2e9e922e61b9a12b363" style="width: 100.0%; height: 100.0%;">La Plantation Museum</div>`)[0];
+                popup_579695ddec94c9a1b6fde42317a45596.setContent(html_7445f127d588d2e9e922e61b9a12b363);
+            
+        
+
+        marker_0ec683ef4cec5d66f20d13e89ab3e390.bindPopup(popup_579695ddec94c9a1b6fde42317a45596)
+        ;
+
+        
+    
+    
+            var marker_e162406d471fae2d82a0a800d34d46d9 = L.marker(
+                [11.5503156, 104.9175894],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_8f2ea028e033c7ad261807c1090648e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a680c86af823420e1dbeee2ca96f4e9 = $(`<div id="html_4a680c86af823420e1dbeee2ca96f4e9" style="width: 100.0%; height: 100.0%;">Zaa Queen</div>`)[0];
+                popup_8f2ea028e033c7ad261807c1090648e7.setContent(html_4a680c86af823420e1dbeee2ca96f4e9);
+            
+        
+
+        marker_e162406d471fae2d82a0a800d34d46d9.bindPopup(popup_8f2ea028e033c7ad261807c1090648e7)
+        ;
+
+        
+    
+    
+            var marker_46f8ca11a9c6914f62e2c4ed9602cd4d = L.marker(
+                [11.5649983, 104.8873143],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_9c14ef5cd05de3b7da46a71f31824070 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0ca9f8e6a1deba47fc61ccd82fba553 = $(`<div id="html_f0ca9f8e6a1deba47fc61ccd82fba553" style="width: 100.0%; height: 100.0%;">SY FLOWER</div>`)[0];
+                popup_9c14ef5cd05de3b7da46a71f31824070.setContent(html_f0ca9f8e6a1deba47fc61ccd82fba553);
+            
+        
+
+        marker_46f8ca11a9c6914f62e2c4ed9602cd4d.bindPopup(popup_9c14ef5cd05de3b7da46a71f31824070)
+        ;
+
+        
+    
+    
+            var marker_54dabe7fd308bbd611f7fa6b76411400 = L.marker(
+                [11.5630159, 104.9114529],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_65ec1710282921af7967ea40c0652844 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f77235b2f6615819bff7b1ed64c4f889 = $(`<div id="html_f77235b2f6615819bff7b1ed64c4f889" style="width: 100.0%; height: 100.0%;">IT's accessories - KH</div>`)[0];
+                popup_65ec1710282921af7967ea40c0652844.setContent(html_f77235b2f6615819bff7b1ed64c4f889);
+            
+        
+
+        marker_54dabe7fd308bbd611f7fa6b76411400.bindPopup(popup_65ec1710282921af7967ea40c0652844)
+        ;
+
+        
+    
+    
+            var marker_56872063ccfc10765117e429df758793 = L.marker(
+                [11.5537711, 104.9198982],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_618f73271e7adfbd8d208c60a8358bff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5592e5282db12acefdc20bf5e62cacfd = $(`<div id="html_5592e5282db12acefdc20bf5e62cacfd" style="width: 100.0%; height: 100.0%;">ពេទ្យចិន</div>`)[0];
+                popup_618f73271e7adfbd8d208c60a8358bff.setContent(html_5592e5282db12acefdc20bf5e62cacfd);
+            
+        
+
+        marker_56872063ccfc10765117e429df758793.bindPopup(popup_618f73271e7adfbd8d208c60a8358bff)
+        ;
+
+        
+    
+    
+            var marker_94bfbd9d3967f744f0530432c1c9eb03 = L.marker(
+                [11.5585714, 104.9218661],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_b5edca57602e1fc2c703d77ac0fcb560 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca66830e6c19b143a8cabc83f8707a12 = $(`<div id="html_ca66830e6c19b143a8cabc83f8707a12" style="width: 100.0%; height: 100.0%;">Metaestetica Lab @ Museum</div>`)[0];
+                popup_b5edca57602e1fc2c703d77ac0fcb560.setContent(html_ca66830e6c19b143a8cabc83f8707a12);
+            
+        
+
+        marker_94bfbd9d3967f744f0530432c1c9eb03.bindPopup(popup_b5edca57602e1fc2c703d77ac0fcb560)
+        ;
+
+        
+    
+    
+            var marker_d8f43a4461e5231e81a1165af66ac940 = L.marker(
+                [11.5638412, 104.918581],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_61bb25bb165cb97821d5dbffcd665386 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2e96599a823e1122c00a9a2e4a1efa5 = $(`<div id="html_c2e96599a823e1122c00a9a2e4a1efa5" style="width: 100.0%; height: 100.0%;">វិហារប៉ាវកុង</div>`)[0];
+                popup_61bb25bb165cb97821d5dbffcd665386.setContent(html_c2e96599a823e1122c00a9a2e4a1efa5);
+            
+        
+
+        marker_d8f43a4461e5231e81a1165af66ac940.bindPopup(popup_61bb25bb165cb97821d5dbffcd665386)
+        ;
+
+        
+    
+    
+            var marker_ffae0a4e0c024ba9b8a906c17d53e6f4 = L.marker(
+                [11.5556642, 104.9283093],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_b8ad2fc2ce5a39fe827ab329323075da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52bda2a818a42263c10f59682a9a52a7 = $(`<div id="html_52bda2a818a42263c10f59682a9a52a7" style="width: 100.0%; height: 100.0%;">សារមន្ទីរគយ</div>`)[0];
+                popup_b8ad2fc2ce5a39fe827ab329323075da.setContent(html_52bda2a818a42263c10f59682a9a52a7);
+            
+        
+
+        marker_ffae0a4e0c024ba9b8a906c17d53e6f4.bindPopup(popup_b8ad2fc2ce5a39fe827ab329323075da)
+        ;
+
+        
+    
+    
+            var marker_bcaf8c405e047e9d459e7a68089699b3 = L.marker(
+                [11.5587919, 104.9283929],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_f1598a1f4b8ba39f1f97abf44fe2056c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce7518efd5c894232a43c45444760d3a = $(`<div id="html_ce7518efd5c894232a43c45444760d3a" style="width: 100.0%; height: 100.0%;">The Queen Mother Library</div>`)[0];
+                popup_f1598a1f4b8ba39f1f97abf44fe2056c.setContent(html_ce7518efd5c894232a43c45444760d3a);
+            
+        
+
+        marker_bcaf8c405e047e9d459e7a68089699b3.bindPopup(popup_f1598a1f4b8ba39f1f97abf44fe2056c)
+        ;
+
+        
+    
+    
+            var marker_aee6de56f8285a3a9234f8d1446ee475 = L.marker(
+                [11.5587956, 104.9284419],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_98eaaee794cbc4a37574e31c678959ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c16786daf8ac4bf1fef92fc1fb0bdc92 = $(`<div id="html_c16786daf8ac4bf1fef92fc1fb0bdc92" style="width: 100.0%; height: 100.0%;">Sleuk Rith Contemporary Art Gallery</div>`)[0];
+                popup_98eaaee794cbc4a37574e31c678959ad.setContent(html_c16786daf8ac4bf1fef92fc1fb0bdc92);
+            
+        
+
+        marker_aee6de56f8285a3a9234f8d1446ee475.bindPopup(popup_98eaaee794cbc4a37574e31c678959ad)
+        ;
+
+        
+    
+    
+            var marker_2032ac9f754b7e66d2ebf74a8ec500f5 = L.marker(
+                [11.5545059, 104.9347071],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_87339d323e61a7bf9eadfc2ef041b4a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14bc1a19e1e6752b7611d4d42befc10a = $(`<div id="html_14bc1a19e1e6752b7611d4d42befc10a" style="width: 100.0%; height: 100.0%;">Khmer Kite Museum (សារមន្ទីរខ្លែងខ្មែរ)</div>`)[0];
+                popup_87339d323e61a7bf9eadfc2ef041b4a5.setContent(html_14bc1a19e1e6752b7611d4d42befc10a);
+            
+        
+
+        marker_2032ac9f754b7e66d2ebf74a8ec500f5.bindPopup(popup_87339d323e61a7bf9eadfc2ef041b4a5)
+        ;
+
+        
+    
+    
+            var marker_f368529aceaf1d87ae98295e6477db76 = L.marker(
+                [11.5702125, 104.9277461],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_7d468764acda616dc06502a5809d2269 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_463e88e409279a5c5fbb9e6ecb11623e = $(`<div id="html_463e88e409279a5c5fbb9e6ecb11623e" style="width: 100.0%; height: 100.0%;">潮州会馆协天大帝庙</div>`)[0];
+                popup_7d468764acda616dc06502a5809d2269.setContent(html_463e88e409279a5c5fbb9e6ecb11623e);
+            
+        
+
+        marker_f368529aceaf1d87ae98295e6477db76.bindPopup(popup_7d468764acda616dc06502a5809d2269)
+        ;
+
+        
+    
+    
+            var marker_835198d75324d3d27de196db0b6f0efb = L.marker(
+                [11.5637384, 104.9319203],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_9b6bc96dc164c83fc8decc3f6a775ab9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44f03e642c3821ee2394d3752a4c779f = $(`<div id="html_44f03e642c3821ee2394d3752a4c779f" style="width: 100.0%; height: 100.0%;">Norodom Sihanouk Museum/Preah Reach Damnak Chan</div>`)[0];
+                popup_9b6bc96dc164c83fc8decc3f6a775ab9.setContent(html_44f03e642c3821ee2394d3752a4c779f);
+            
+        
+
+        marker_835198d75324d3d27de196db0b6f0efb.bindPopup(popup_9b6bc96dc164c83fc8decc3f6a775ab9)
+        ;
+
+        
+    
+    
+            var marker_fb176ce07adc5913d077c47da331b0f4 = L.marker(
+                [11.5563738, 104.9282099],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_eb3d95503decd095aefe2aa980696d16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c04f279757ad6eac59d0acc03c93499 = $(`<div id="html_5c04f279757ad6eac59d0acc03c93499" style="width: 100.0%; height: 100.0%;">Phnom Penh</div>`)[0];
+                popup_eb3d95503decd095aefe2aa980696d16.setContent(html_5c04f279757ad6eac59d0acc03c93499);
+            
+        
+
+        marker_fb176ce07adc5913d077c47da331b0f4.bindPopup(popup_eb3d95503decd095aefe2aa980696d16)
+        ;
+
+        
+    
+    
+            var marker_1b2f654a3505ae3581baa51234c55a67 = L.marker(
+                [11.5503259, 104.9026014],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_9cfa78b05df6d3ca178fc032a6371300 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc101bf98d31f4bb83bbe1378963e728 = $(`<div id="html_cc101bf98d31f4bb83bbe1378963e728" style="width: 100.0%; height: 100.0%;">The Great Duke Hotel</div>`)[0];
+                popup_9cfa78b05df6d3ca178fc032a6371300.setContent(html_cc101bf98d31f4bb83bbe1378963e728);
+            
+        
+
+        marker_1b2f654a3505ae3581baa51234c55a67.bindPopup(popup_9cfa78b05df6d3ca178fc032a6371300)
+        ;
+
+        
+    
+    
+            var marker_7a75742bdb0d26eb7ef98c68d59f2896 = L.marker(
+                [11.5484273, 104.9002092],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_522c80410d4f94a390e84c8cde478cb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d11a4cfa95912a8d162a78929a7d5a6 = $(`<div id="html_4d11a4cfa95912a8d162a78929a7d5a6" style="width: 100.0%; height: 100.0%;">柬埔寨广东大酒店</div>`)[0];
+                popup_522c80410d4f94a390e84c8cde478cb8.setContent(html_4d11a4cfa95912a8d162a78929a7d5a6);
+            
+        
+
+        marker_7a75742bdb0d26eb7ef98c68d59f2896.bindPopup(popup_522c80410d4f94a390e84c8cde478cb8)
+        ;
+
+        
+    
+    
+            var marker_48dc61ffdb298588496f785f26df481c = L.marker(
+                [11.5473119, 104.8988156],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_b3cb3beddd7fcde0cd4cc93d1e6c0296 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_087db86b947d0a415268dbf6f7db4766 = $(`<div id="html_087db86b947d0a415268dbf6f7db4766" style="width: 100.0%; height: 100.0%;">The Bird Berth Apartment Hotel</div>`)[0];
+                popup_b3cb3beddd7fcde0cd4cc93d1e6c0296.setContent(html_087db86b947d0a415268dbf6f7db4766);
+            
+        
+
+        marker_48dc61ffdb298588496f785f26df481c.bindPopup(popup_b3cb3beddd7fcde0cd4cc93d1e6c0296)
+        ;
+
+        
+    
+    
+            var marker_c62f6bfaef53351fecbfad6595d2bb45 = L.marker(
+                [11.555443, 104.9050951],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_d7188a9bbb63d078ed10c8e301b2f0ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41c611cae101ae0b87f912d1fed69a12 = $(`<div id="html_41c611cae101ae0b87f912d1fed69a12" style="width: 100.0%; height: 100.0%;">សណ្ឋាគារ ឡាក់គីស្តារ ២</div>`)[0];
+                popup_d7188a9bbb63d078ed10c8e301b2f0ef.setContent(html_41c611cae101ae0b87f912d1fed69a12);
+            
+        
+
+        marker_c62f6bfaef53351fecbfad6595d2bb45.bindPopup(popup_d7188a9bbb63d078ed10c8e301b2f0ef)
+        ;
+
+        
+    
+    
+            var marker_e004246a9931334ed79bc44ab37d660c = L.marker(
+                [11.5556639, 104.9049262],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_e7d4e752af1786f85650e5f43e6e0848 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_801006854daa13f21bcebb5a59669bce = $(`<div id="html_801006854daa13f21bcebb5a59669bce" style="width: 100.0%; height: 100.0%;">Keo Chinda Mini Mart</div>`)[0];
+                popup_e7d4e752af1786f85650e5f43e6e0848.setContent(html_801006854daa13f21bcebb5a59669bce);
+            
+        
+
+        marker_e004246a9931334ed79bc44ab37d660c.bindPopup(popup_e7d4e752af1786f85650e5f43e6e0848)
+        ;
+
+        
+    
+    
+            var marker_1004444ec8674d67690818f6ffefc947 = L.marker(
+                [11.5545184, 104.8879981],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_c00b666a966b9b95c53733411f2fae07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d1adb6afa63c7a946e562cfb9639726 = $(`<div id="html_4d1adb6afa63c7a946e562cfb9639726" style="width: 100.0%; height: 100.0%;">National Control Center (NCC)</div>`)[0];
+                popup_c00b666a966b9b95c53733411f2fae07.setContent(html_4d1adb6afa63c7a946e562cfb9639726);
+            
+        
+
+        marker_1004444ec8674d67690818f6ffefc947.bindPopup(popup_c00b666a966b9b95c53733411f2fae07)
+        ;
+
+        
+    
+    
+            var marker_04fc4d8265baebae2a9864fc614f39df = L.marker(
+                [11.5472557, 104.8966783],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_98613f1b1b185de991b4325c8c6ec40a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_704ec4306ea7fc57fbf409703183db3e = $(`<div id="html_704ec4306ea7fc57fbf409703183db3e" style="width: 100.0%; height: 100.0%;">Korean Style Beauty Salon</div>`)[0];
+                popup_98613f1b1b185de991b4325c8c6ec40a.setContent(html_704ec4306ea7fc57fbf409703183db3e);
+            
+        
+
+        marker_04fc4d8265baebae2a9864fc614f39df.bindPopup(popup_98613f1b1b185de991b4325c8c6ec40a)
+        ;
+
+        
+    
+    
+            var marker_4049529090dab4078440445f303e000e = L.marker(
+                [11.5453428, 104.9009312],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_eafb3b540c074d47ef107cceb703e500 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce1dd4e66c050fa23c161e46286b7de7 = $(`<div id="html_ce1dd4e66c050fa23c161e46286b7de7" style="width: 100.0%; height: 100.0%;">Canadia Bank Sovanna Branch</div>`)[0];
+                popup_eafb3b540c074d47ef107cceb703e500.setContent(html_ce1dd4e66c050fa23c161e46286b7de7);
+            
+        
+
+        marker_4049529090dab4078440445f303e000e.bindPopup(popup_eafb3b540c074d47ef107cceb703e500)
+        ;
+
+        
+    
+    
+            var marker_ed600129add6f3e08e6e914bd3336900 = L.marker(
+                [11.5508542, 104.9010295],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_b402cd569494c026d4e44feb3fa06c14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8931dd24acbe07b31f14a8263d744abf = $(`<div id="html_8931dd24acbe07b31f14a8263d744abf" style="width: 100.0%; height: 100.0%;">Air Tiger Express (Cambodia) Co., Ltd.</div>`)[0];
+                popup_b402cd569494c026d4e44feb3fa06c14.setContent(html_8931dd24acbe07b31f14a8263d744abf);
+            
+        
+
+        marker_ed600129add6f3e08e6e914bd3336900.bindPopup(popup_b402cd569494c026d4e44feb3fa06c14)
+        ;
+
+        
+    
+    
+            var marker_41fddc2693d7ab9154b1ef88abb038c5 = L.marker(
+                [11.5460994, 104.8975932],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_ebb92bb9ac2ab2a39c6511e38695e930 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20da4ecd693e86f39240740d8f93562e = $(`<div id="html_20da4ecd693e86f39240740d8f93562e" style="width: 100.0%; height: 100.0%;">L'Orchidee Restaurant</div>`)[0];
+                popup_ebb92bb9ac2ab2a39c6511e38695e930.setContent(html_20da4ecd693e86f39240740d8f93562e);
+            
+        
+
+        marker_41fddc2693d7ab9154b1ef88abb038c5.bindPopup(popup_ebb92bb9ac2ab2a39c6511e38695e930)
+        ;
+
+        
+    
+    
+            var marker_fbcd655798fddcfa3144b492210f5437 = L.marker(
+                [11.5491388, 104.9000238],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_9f37145146cdc75a6e563140e3e26cef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb5185b915a19875cb80d2e7c9767be6 = $(`<div id="html_eb5185b915a19875cb80d2e7c9767be6" style="width: 100.0%; height: 100.0%;">Soka Gakkai International-Cambodia</div>`)[0];
+                popup_9f37145146cdc75a6e563140e3e26cef.setContent(html_eb5185b915a19875cb80d2e7c9767be6);
+            
+        
+
+        marker_fbcd655798fddcfa3144b492210f5437.bindPopup(popup_9f37145146cdc75a6e563140e3e26cef)
+        ;
+
+        
+    
+    
+            var marker_dc01cfce2cda2fb6a975fdabd2805f24 = L.marker(
+                [11.5489502, 104.8970709],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_9d955fc54169647044f23d14c020c34c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1601578bd88360029351e2ba5ff71a2 = $(`<div id="html_f1601578bd88360029351e2ba5ff71a2" style="width: 100.0%; height: 100.0%;">4K Development</div>`)[0];
+                popup_9d955fc54169647044f23d14c020c34c.setContent(html_f1601578bd88360029351e2ba5ff71a2);
+            
+        
+
+        marker_dc01cfce2cda2fb6a975fdabd2805f24.bindPopup(popup_9d955fc54169647044f23d14c020c34c)
+        ;
+
+        
+    
+    
+            var marker_961fe6b7c0a5a805fd1c60b3cbcdc168 = L.marker(
+                [11.5446785, 104.894371],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_3d85ad6eeb9c84659a1f1d3bb96663ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a413898bfd4a0d2fad64e3f49cda820 = $(`<div id="html_7a413898bfd4a0d2fad64e3f49cda820" style="width: 100.0%; height: 100.0%;">Steung Meanchey Market</div>`)[0];
+                popup_3d85ad6eeb9c84659a1f1d3bb96663ae.setContent(html_7a413898bfd4a0d2fad64e3f49cda820);
+            
+        
+
+        marker_961fe6b7c0a5a805fd1c60b3cbcdc168.bindPopup(popup_3d85ad6eeb9c84659a1f1d3bb96663ae)
+        ;
+
+        
+    
+    
+            var marker_0fa8604bab58a3a45adf45525003b2ac = L.marker(
+                [11.5512831, 104.9026134],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_5c94e81471981ecc71ce47c7ba99e47b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c26e6c6943af5394b633207f405ba04a = $(`<div id="html_c26e6c6943af5394b633207f405ba04a" style="width: 100.0%; height: 100.0%;">Li & Fung (Cambodia) Ltd</div>`)[0];
+                popup_5c94e81471981ecc71ce47c7ba99e47b.setContent(html_c26e6c6943af5394b633207f405ba04a);
+            
+        
+
+        marker_0fa8604bab58a3a45adf45525003b2ac.bindPopup(popup_5c94e81471981ecc71ce47c7ba99e47b)
+        ;
+
+        
+    
+    
+            var marker_683577ee21fd6bb6b630a3c801b8f2ce = L.marker(
+                [11.5460788, 104.9002801],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_51efa13c5884e0c9e2163fc1c8fba4f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a54d82c269ed9ae565b66637cf8ae96 = $(`<div id="html_4a54d82c269ed9ae565b66637cf8ae96" style="width: 100.0%; height: 100.0%;">JS CAM CORPORATION</div>`)[0];
+                popup_51efa13c5884e0c9e2163fc1c8fba4f7.setContent(html_4a54d82c269ed9ae565b66637cf8ae96);
+            
+        
+
+        marker_683577ee21fd6bb6b630a3c801b8f2ce.bindPopup(popup_51efa13c5884e0c9e2163fc1c8fba4f7)
+        ;
+
+        
+    
+    
+            var marker_5e555622b7c2dbcbbf3231ea57945461 = L.marker(
+                [11.5448718, 104.8921419],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_bb2f387ebcffc954a35ad5f5e62f8f64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a6ea829c9b855b86e02ef53019fc0da = $(`<div id="html_7a6ea829c9b855b86e02ef53019fc0da" style="width: 100.0%; height: 100.0%;">TZ TECHNOLOGY CO,.LTD</div>`)[0];
+                popup_bb2f387ebcffc954a35ad5f5e62f8f64.setContent(html_7a6ea829c9b855b86e02ef53019fc0da);
+            
+        
+
+        marker_5e555622b7c2dbcbbf3231ea57945461.bindPopup(popup_bb2f387ebcffc954a35ad5f5e62f8f64)
+        ;
+
+        
+    
+    
+            var marker_8fbf5c17d4ee0440c228a589c913c08c = L.marker(
+                [11.5455582, 104.8934427],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_16cbba6bdbbf39871a4a4466ffb255ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a444879e54c224b9d15a2fc8b4c8e07 = $(`<div id="html_0a444879e54c224b9d15a2fc8b4c8e07" style="width: 100.0%; height: 100.0%;">愛センター</div>`)[0];
+                popup_16cbba6bdbbf39871a4a4466ffb255ef.setContent(html_0a444879e54c224b9d15a2fc8b4c8e07);
+            
+        
+
+        marker_8fbf5c17d4ee0440c228a589c913c08c.bindPopup(popup_16cbba6bdbbf39871a4a4466ffb255ef)
+        ;
+
+        
+    
+    
+            var marker_dc123af7a33171067fb45d32717aa7b2 = L.marker(
+                [11.5344226, 104.8804893],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_63c2a828c6b141fde62d0d86ec431362 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d38c01fe3eea283218fbc50cb9da7628 = $(`<div id="html_d38c01fe3eea283218fbc50cb9da7628" style="width: 100.0%; height: 100.0%;">Khan Mean Chey</div>`)[0];
+                popup_63c2a828c6b141fde62d0d86ec431362.setContent(html_d38c01fe3eea283218fbc50cb9da7628);
+            
+        
+
+        marker_dc123af7a33171067fb45d32717aa7b2.bindPopup(popup_63c2a828c6b141fde62d0d86ec431362)
+        ;
+
+        
+    
+    
+            var marker_2993267fd965e216d5d7b700e07433e2 = L.marker(
+                [11.547034, 104.901231],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_597e65255ab20ba0861e6f34971818a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1403b1c23a8abf23afda6b0d8f13190a = $(`<div id="html_1403b1c23a8abf23afda6b0d8f13190a" style="width: 100.0%; height: 100.0%;">AAP DIGITAL SCALE</div>`)[0];
+                popup_597e65255ab20ba0861e6f34971818a9.setContent(html_1403b1c23a8abf23afda6b0d8f13190a);
+            
+        
+
+        marker_2993267fd965e216d5d7b700e07433e2.bindPopup(popup_597e65255ab20ba0861e6f34971818a9)
+        ;
+
+        
+    
+    
+            var marker_64cb1be8f09f5f7f41e72f9ccdbc80c7 = L.marker(
+                [11.5440035, 104.8981121],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_b063f766893dac1a7df517f61cb1b22e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_103f7ae375dde7f426708cb5072b34d9 = $(`<div id="html_103f7ae375dde7f426708cb5072b34d9" style="width: 100.0%; height: 100.0%;">LexSurf Co.,Ltd</div>`)[0];
+                popup_b063f766893dac1a7df517f61cb1b22e.setContent(html_103f7ae375dde7f426708cb5072b34d9);
+            
+        
+
+        marker_64cb1be8f09f5f7f41e72f9ccdbc80c7.bindPopup(popup_b063f766893dac1a7df517f61cb1b22e)
+        ;
+
+        
+    
+    
+            var marker_2b66ac73cb9fef12da0bb61733622d8b = L.marker(
+                [11.5498171, 104.9038205],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_c41b54299c7ebbe5d72b5b50ef11e864 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34f8e322fe456c41fcde2ddfdbbec85b = $(`<div id="html_34f8e322fe456c41fcde2ddfdbbec85b" style="width: 100.0%; height: 100.0%;">Home Du Pain Bakery (St.205)</div>`)[0];
+                popup_c41b54299c7ebbe5d72b5b50ef11e864.setContent(html_34f8e322fe456c41fcde2ddfdbbec85b);
+            
+        
+
+        marker_2b66ac73cb9fef12da0bb61733622d8b.bindPopup(popup_c41b54299c7ebbe5d72b5b50ef11e864)
+        ;
+
+        
+    
+    
+            var marker_8c6e62bff194fb972ac82ff672cdc0b5 = L.marker(
+                [11.5506183, 104.9035023],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_fb1f9f301e8a419bb596d51a2e3471b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd2781f5c16674f6212b9ee3b7fa3e19 = $(`<div id="html_cd2781f5c16674f6212b9ee3b7fa3e19" style="width: 100.0%; height: 100.0%;">Chuan Wei Co Ltd</div>`)[0];
+                popup_fb1f9f301e8a419bb596d51a2e3471b8.setContent(html_cd2781f5c16674f6212b9ee3b7fa3e19);
+            
+        
+
+        marker_8c6e62bff194fb972ac82ff672cdc0b5.bindPopup(popup_fb1f9f301e8a419bb596d51a2e3471b8)
+        ;
+
+        
+    
+    
+            var marker_d5f478bc0581168a5a7a8bd81ccc8036 = L.marker(
+                [11.5517767, 104.9019836],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_41862653ae4d0c2a509f8f08aa77b7e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_903ee2f290c2d1fd1390c43511a9cbb7 = $(`<div id="html_903ee2f290c2d1fd1390c43511a9cbb7" style="width: 100.0%; height: 100.0%;">Vinita Guest House</div>`)[0];
+                popup_41862653ae4d0c2a509f8f08aa77b7e3.setContent(html_903ee2f290c2d1fd1390c43511a9cbb7);
+            
+        
+
+        marker_d5f478bc0581168a5a7a8bd81ccc8036.bindPopup(popup_41862653ae4d0c2a509f8f08aa77b7e3)
+        ;
+
+        
+    
+    
+            var marker_89cbe39e1e2489b3991d893fb4f79c65 = L.marker(
+                [11.5506035, 104.9034225],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_0c100c31aafceb4ca1fd9acef26c5200 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cb35316316c5bf8a6d78be34f9c9939 = $(`<div id="html_1cb35316316c5bf8a6d78be34f9c9939" style="width: 100.0%; height: 100.0%;">Trans Star Freight Pte., Ltd.</div>`)[0];
+                popup_0c100c31aafceb4ca1fd9acef26c5200.setContent(html_1cb35316316c5bf8a6d78be34f9c9939);
+            
+        
+
+        marker_89cbe39e1e2489b3991d893fb4f79c65.bindPopup(popup_0c100c31aafceb4ca1fd9acef26c5200)
+        ;
+
+        
+    
+    
+            var marker_63bbe0bc2a1e0669ee65d37d052e5eb4 = L.marker(
+                [11.5483743, 104.8990591],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_42e7a53b433ed362e202f129c9b67ae8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b28fad0a1da811e3ef98f8b499a38c69 = $(`<div id="html_b28fad0a1da811e3ef98f8b499a38c69" style="width: 100.0%; height: 100.0%;">EP Logistics Co., Ltd.</div>`)[0];
+                popup_42e7a53b433ed362e202f129c9b67ae8.setContent(html_b28fad0a1da811e3ef98f8b499a38c69);
+            
+        
+
+        marker_63bbe0bc2a1e0669ee65d37d052e5eb4.bindPopup(popup_42e7a53b433ed362e202f129c9b67ae8)
+        ;
+
+        
+    
+    
+            var marker_381ebbb164e200a0d259346cf04c88f0 = L.marker(
+                [11.5467536, 104.8993151],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_72aa06b7a01a440f1b684069f5da8cc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15438108d1d81144700dc9e0ff8ea176 = $(`<div id="html_15438108d1d81144700dc9e0ff8ea176" style="width: 100.0%; height: 100.0%;">Cambodia Angkor Real Estate Co.,Ltd</div>`)[0];
+                popup_72aa06b7a01a440f1b684069f5da8cc1.setContent(html_15438108d1d81144700dc9e0ff8ea176);
+            
+        
+
+        marker_381ebbb164e200a0d259346cf04c88f0.bindPopup(popup_72aa06b7a01a440f1b684069f5da8cc1)
+        ;
+
+        
+    
+    
+            var marker_d2974e3ad72840571283499cdc36a6a2 = L.marker(
+                [11.5459843, 104.8990857],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_12a42a9de37b18eb0dc8e63d6210b7f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5d852b1d70882bbf3759bc13a0a492d = $(`<div id="html_a5d852b1d70882bbf3759bc13a0a492d" style="width: 100.0%; height: 100.0%;">គ្លីនិកឯកទេសឬសដូងបាត វេជ្ជ. ឃួន វិសិដ្ឋ</div>`)[0];
+                popup_12a42a9de37b18eb0dc8e63d6210b7f5.setContent(html_a5d852b1d70882bbf3759bc13a0a492d);
+            
+        
+
+        marker_d2974e3ad72840571283499cdc36a6a2.bindPopup(popup_12a42a9de37b18eb0dc8e63d6210b7f5)
+        ;
+
+        
+    
+    
+            var marker_e2cda2923e6cd044064846b1f04c5801 = L.marker(
+                [11.5491406, 104.8962158],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_e03b575922df8adb31296a22467ef411 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_641ce4e56bd84cefb6b32b1331f59bbc = $(`<div id="html_641ce4e56bd84cefb6b32b1331f59bbc" style="width: 100.0%; height: 100.0%;">Aliza168</div>`)[0];
+                popup_e03b575922df8adb31296a22467ef411.setContent(html_641ce4e56bd84cefb6b32b1331f59bbc);
+            
+        
+
+        marker_e2cda2923e6cd044064846b1f04c5801.bindPopup(popup_e03b575922df8adb31296a22467ef411)
+        ;
+
+        
+    
+    
+            var marker_2e4b1564fffd2e1cbba76453e5b9f2c2 = L.marker(
+                [11.5488222, 104.8996336],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_b23552689740db1500fba74356553582 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4df584e5a40cd7c3973c2a060ddda2be = $(`<div id="html_4df584e5a40cd7c3973c2a060ddda2be" style="width: 100.0%; height: 100.0%;">MangoTango Asia</div>`)[0];
+                popup_b23552689740db1500fba74356553582.setContent(html_4df584e5a40cd7c3973c2a060ddda2be);
+            
+        
+
+        marker_2e4b1564fffd2e1cbba76453e5b9f2c2.bindPopup(popup_b23552689740db1500fba74356553582)
+        ;
+
+        
+    
+    
+            var marker_bcb484ec7bc5e0b5222af8693dacfe3c = L.marker(
+                [11.5460596, 104.9000231],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_3ce7e69a1fe4b8b0f60d1e7d8a122930 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e199a5e4a46646ec158597c36ad10af = $(`<div id="html_2e199a5e4a46646ec158597c36ad10af" style="width: 100.0%; height: 100.0%;">Xplore-Asia Cambodia</div>`)[0];
+                popup_3ce7e69a1fe4b8b0f60d1e7d8a122930.setContent(html_2e199a5e4a46646ec158597c36ad10af);
+            
+        
+
+        marker_bcb484ec7bc5e0b5222af8693dacfe3c.bindPopup(popup_3ce7e69a1fe4b8b0f60d1e7d8a122930)
+        ;
+
+        
+    
+    
+            var marker_47a89253465a37317f7aa5c8967300a1 = L.marker(
+                [11.5455899, 104.8998346],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_337a4d8eced35f9e786e824841dd1bb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05d3fa4eac26e8e21593362a94feb9de = $(`<div id="html_05d3fa4eac26e8e21593362a94feb9de" style="width: 100.0%; height: 100.0%;">ACLEDA ATM - AAP Group</div>`)[0];
+                popup_337a4d8eced35f9e786e824841dd1bb4.setContent(html_05d3fa4eac26e8e21593362a94feb9de);
+            
+        
+
+        marker_47a89253465a37317f7aa5c8967300a1.bindPopup(popup_337a4d8eced35f9e786e824841dd1bb4)
+        ;
+
+        
+    
+    
+            var marker_cd9a6fd174d790a238b7d1ff4177f866 = L.marker(
+                [11.5495103, 104.8954151],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_d3f8bb750c9b025ccf119fc986c2b3f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_357ad219bc23484575961fa862a79d8a = $(`<div id="html_357ad219bc23484575961fa862a79d8a" style="width: 100.0%; height: 100.0%;">Mega Multi Supplier Truck Tyres Supplier in Cambodia</div>`)[0];
+                popup_d3f8bb750c9b025ccf119fc986c2b3f1.setContent(html_357ad219bc23484575961fa862a79d8a);
+            
+        
+
+        marker_cd9a6fd174d790a238b7d1ff4177f866.bindPopup(popup_d3f8bb750c9b025ccf119fc986c2b3f1)
+        ;
+
+        
+    
+    
+            var marker_8cb91bd9b2ad16faa567daef2834d3fa = L.marker(
+                [11.5461334, 104.9003614],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_16b586c042997a2ba1f505392b88e3bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc1ad57d710a640073f2209a7034242a = $(`<div id="html_cc1ad57d710a640073f2209a7034242a" style="width: 100.0%; height: 100.0%;">Peng Seng Doctor Water</div>`)[0];
+                popup_16b586c042997a2ba1f505392b88e3bd.setContent(html_cc1ad57d710a640073f2209a7034242a);
+            
+        
+
+        marker_8cb91bd9b2ad16faa567daef2834d3fa.bindPopup(popup_16b586c042997a2ba1f505392b88e3bd)
+        ;
+
+        
+    
+    
+            var marker_f08076de957b32504be8d9b7755edda9 = L.marker(
+                [11.5494532, 104.8952025],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_a350bdbccf14c1d4e48df7039288f0fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e68264e14a69543cfd0167596d8f8d8c = $(`<div id="html_e68264e14a69543cfd0167596d8f8d8c" style="width: 100.0%; height: 100.0%;">The Happy Laundry Center</div>`)[0];
+                popup_a350bdbccf14c1d4e48df7039288f0fa.setContent(html_e68264e14a69543cfd0167596d8f8d8c);
+            
+        
+
+        marker_f08076de957b32504be8d9b7755edda9.bindPopup(popup_a350bdbccf14c1d4e48df7039288f0fa)
+        ;
+
+        
+    
+    
+            var marker_7202eae9bded7c5487b49f246cad4ba5 = L.marker(
+                [11.5495075, 104.8952166],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_3d78a746b52f5a272cbef9df2fb135ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14af5316a2bb52c3c8f93bac9ae53fb6 = $(`<div id="html_14af5316a2bb52c3c8f93bac9ae53fb6" style="width: 100.0%; height: 100.0%;">Green Green Toy ហ្គ្រីនហ្គ្រីនធយ</div>`)[0];
+                popup_3d78a746b52f5a272cbef9df2fb135ad.setContent(html_14af5316a2bb52c3c8f93bac9ae53fb6);
+            
+        
+
+        marker_7202eae9bded7c5487b49f246cad4ba5.bindPopup(popup_3d78a746b52f5a272cbef9df2fb135ad)
+        ;
+
+        
+    
+    
+            var marker_695ecdd0c882743c67dc5c82bd3ff18d = L.marker(
+                [11.5498753, 104.9034842],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_355470eb4a0bf0831f533b0e0bc3875a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a626be0c319f3d63fb181b91caa7ee46 = $(`<div id="html_a626be0c319f3d63fb181b91caa7ee46" style="width: 100.0%; height: 100.0%;">EVA Air (BR)</div>`)[0];
+                popup_355470eb4a0bf0831f533b0e0bc3875a.setContent(html_a626be0c319f3d63fb181b91caa7ee46);
+            
+        
+
+        marker_695ecdd0c882743c67dc5c82bd3ff18d.bindPopup(popup_355470eb4a0bf0831f533b0e0bc3875a)
+        ;
+
+        
+    
+    
+            var marker_263e2153eab2f8643ae12ebf8c6a4d32 = L.marker(
+                [11.5464236, 104.9007627],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_e6c66058bef9e47eb2d1098f2e943987 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f1913c2dc51b40fc6b3d8b7c7b61772 = $(`<div id="html_5f1913c2dc51b40fc6b3d8b7c7b61772" style="width: 100.0%; height: 100.0%;">한국컴퓨터</div>`)[0];
+                popup_e6c66058bef9e47eb2d1098f2e943987.setContent(html_5f1913c2dc51b40fc6b3d8b7c7b61772);
+            
+        
+
+        marker_263e2153eab2f8643ae12ebf8c6a4d32.bindPopup(popup_e6c66058bef9e47eb2d1098f2e943987)
+        ;
+
+        
+    
+    
+            var marker_851aaaae37352f727fbfb4db81f0573a = L.marker(
+                [11.5443619, 104.9242876],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_26b72ca3821f50b3e00e42f47d059cbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a651e7d3df5037d60f60698448ef6ad5 = $(`<div id="html_a651e7d3df5037d60f60698448ef6ad5" style="width: 100.0%; height: 100.0%;">សាលាអន្តរជាតិ ជីនៀស</div>`)[0];
+                popup_26b72ca3821f50b3e00e42f47d059cbb.setContent(html_a651e7d3df5037d60f60698448ef6ad5);
+            
+        
+
+        marker_851aaaae37352f727fbfb4db81f0573a.bindPopup(popup_26b72ca3821f50b3e00e42f47d059cbb)
+        ;
+
+        
+    
+    
+            var marker_1386ea53fa7f3408bc3205335e19352a = L.marker(
+                [11.5539171, 104.9270756],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_6a18ae85a4c80586e7809258cea8fde5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_814153c7baf116adde539b48d5f515f4 = $(`<div id="html_814153c7baf116adde539b48d5f515f4" style="width: 100.0%; height: 100.0%;">Texas State International Academy</div>`)[0];
+                popup_6a18ae85a4c80586e7809258cea8fde5.setContent(html_814153c7baf116adde539b48d5f515f4);
+            
+        
+
+        marker_1386ea53fa7f3408bc3205335e19352a.bindPopup(popup_6a18ae85a4c80586e7809258cea8fde5)
+        ;
+
+        
+    
+    
+            var marker_33c16ea37356a4e0368f4fd6f8ab4a37 = L.marker(
+                [11.5507199, 104.931398],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_25df8abbe98c8d67c38d117c209980d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cdcc36e94480918f8563a0cded458cd = $(`<div id="html_8cdcc36e94480918f8563a0cded458cd" style="width: 100.0%; height: 100.0%;">Seametrey Children's Village</div>`)[0];
+                popup_25df8abbe98c8d67c38d117c209980d3.setContent(html_8cdcc36e94480918f8563a0cded458cd);
+            
+        
+
+        marker_33c16ea37356a4e0368f4fd6f8ab4a37.bindPopup(popup_25df8abbe98c8d67c38d117c209980d3)
+        ;
+
+        
+    
+    
+            var marker_7651e2f178c271bb10c472503b6bd9ef = L.marker(
+                [11.5698307, 104.9248972],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_e56a0d0cba8cc386a61d3ecdcb5e3e63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6c8c04689b4c469fd43ca6948285021 = $(`<div id="html_b6c8c04689b4c469fd43ca6948285021" style="width: 100.0%; height: 100.0%;">Berkeley International School by ELT</div>`)[0];
+                popup_e56a0d0cba8cc386a61d3ecdcb5e3e63.setContent(html_b6c8c04689b4c469fd43ca6948285021);
+            
+        
+
+        marker_7651e2f178c271bb10c472503b6bd9ef.bindPopup(popup_e56a0d0cba8cc386a61d3ecdcb5e3e63)
+        ;
+
+        
+    
+    
+            var marker_64b3e2106866509a0eb842b27eb19ae6 = L.marker(
+                [11.5817239, 104.9047967],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_56ab751426e3c96931cf4876157e83f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2801584a8793b73709365d824f96f028 = $(`<div id="html_2801584a8793b73709365d824f96f028" style="width: 100.0%; height: 100.0%;">American Intercon School (AIS): TOUL KORK CAMPUS</div>`)[0];
+                popup_56ab751426e3c96931cf4876157e83f6.setContent(html_2801584a8793b73709365d824f96f028);
+            
+        
+
+        marker_64b3e2106866509a0eb842b27eb19ae6.bindPopup(popup_56ab751426e3c96931cf4876157e83f6)
+        ;
+
+        
+    
+    
+            var marker_19190562f962f2b7558a34435b8affdb = L.marker(
+                [11.5460745, 104.9359311],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_9479681c7bd0d912819616bbd3155677 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_629e8509b83aee086aa49edf185bdc74 = $(`<div id="html_629e8509b83aee086aa49edf185bdc74" style="width: 100.0%; height: 100.0%;">Canadian International School of Phnom Penh - Koh Pich Campus</div>`)[0];
+                popup_9479681c7bd0d912819616bbd3155677.setContent(html_629e8509b83aee086aa49edf185bdc74);
+            
+        
+
+        marker_19190562f962f2b7558a34435b8affdb.bindPopup(popup_9479681c7bd0d912819616bbd3155677)
+        ;
+
+        
+    
+    
+            var marker_f886cd93ae129642d8f3bda863f41899 = L.marker(
+                [11.5907101, 104.8867317],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_781e965e996de47d4f6f971c66168526 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10bdb8c5c487fd9dbf0a017d4c5f1a1a = $(`<div id="html_10bdb8c5c487fd9dbf0a017d4c5f1a1a" style="width: 100.0%; height: 100.0%;">Home of English Cambodia Tuol Kork (Sen Sok)</div>`)[0];
+                popup_781e965e996de47d4f6f971c66168526.setContent(html_10bdb8c5c487fd9dbf0a017d4c5f1a1a);
+            
+        
+
+        marker_f886cd93ae129642d8f3bda863f41899.bindPopup(popup_781e965e996de47d4f6f971c66168526)
+        ;
+
+        
+    
+    
+            var marker_08c9bd169eb14e3156430d9622dfe0a4 = L.marker(
+                [11.5846513, 104.8717684],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_48564ab3fe3b1607ecd7f8045ec38e4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81a20309864ec6279249851f4f80d5a9 = $(`<div id="html_81a20309864ec6279249851f4f80d5a9" style="width: 100.0%; height: 100.0%;">Logos International School</div>`)[0];
+                popup_48564ab3fe3b1607ecd7f8045ec38e4a.setContent(html_81a20309864ec6279249851f4f80d5a9);
+            
+        
+
+        marker_08c9bd169eb14e3156430d9622dfe0a4.bindPopup(popup_48564ab3fe3b1607ecd7f8045ec38e4a)
+        ;
+
+        
+    
+    
+            var marker_d301cb15e3eb791d648f74dc2b55c774 = L.marker(
+                [11.5451997, 104.8960938],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_aaa9b55253da6446af44963392a807d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e8713b0a05e21d310d934976afe6a86 = $(`<div id="html_2e8713b0a05e21d310d934976afe6a86" style="width: 100.0%; height: 100.0%;">Steung Meanchey Primary School</div>`)[0];
+                popup_aaa9b55253da6446af44963392a807d3.setContent(html_2e8713b0a05e21d310d934976afe6a86);
+            
+        
+
+        marker_d301cb15e3eb791d648f74dc2b55c774.bindPopup(popup_aaa9b55253da6446af44963392a807d3)
+        ;
+
+        
+    
+    
+            var marker_f03e83ae6f59d5ad279db4ad33749d09 = L.marker(
+                [11.5478858, 104.9148703],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_76227605947f35dd2640655e461eb332 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e1901ff8de7345ee036bd1aaba0ae8c = $(`<div id="html_5e1901ff8de7345ee036bd1aaba0ae8c" style="width: 100.0%; height: 100.0%;">Home Of English International School</div>`)[0];
+                popup_76227605947f35dd2640655e461eb332.setContent(html_5e1901ff8de7345ee036bd1aaba0ae8c);
+            
+        
+
+        marker_f03e83ae6f59d5ad279db4ad33749d09.bindPopup(popup_76227605947f35dd2640655e461eb332)
+        ;
+
+        
+    
+    
+            var marker_6e349e48c3c58d233a6958ad0db9284f = L.marker(
+                [11.5510482, 104.8984744],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_5e8db13f926410908b406041392893ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e36d82b19ad7503e0a06ab297320e3dd = $(`<div id="html_e36d82b19ad7503e0a06ab297320e3dd" style="width: 100.0%; height: 100.0%;">Beung Salang Primary School</div>`)[0];
+                popup_5e8db13f926410908b406041392893ab.setContent(html_e36d82b19ad7503e0a06ab297320e3dd);
+            
+        
+
+        marker_6e349e48c3c58d233a6958ad0db9284f.bindPopup(popup_5e8db13f926410908b406041392893ab)
+        ;
+
+        
+    
+    
+            var marker_190a5fdbc3e3494aa9ef5c6d6b4fcf7e = L.marker(
+                [11.5468094, 104.8930688],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_db9741ff3b6fc3fc9c1ef044e36508a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d3125ad4ad92f8d86a4bf9ae7c296a0 = $(`<div id="html_5d3125ad4ad92f8d86a4bf9ae7c296a0" style="width: 100.0%; height: 100.0%;">Townkids School</div>`)[0];
+                popup_db9741ff3b6fc3fc9c1ef044e36508a1.setContent(html_5d3125ad4ad92f8d86a4bf9ae7c296a0);
+            
+        
+
+        marker_190a5fdbc3e3494aa9ef5c6d6b4fcf7e.bindPopup(popup_db9741ff3b6fc3fc9c1ef044e36508a1)
+        ;
+
+        
+    
+    
+            var marker_7633155c0194330ce4359974c21ac344 = L.marker(
+                [11.5492068, 104.9016006],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_3ddb73f86a229139fb50a03d1fafc335 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdc29fce91feb426a111b9d51a34a917 = $(`<div id="html_cdc29fce91feb426a111b9d51a34a917" style="width: 100.0%; height: 100.0%;">Street430</div>`)[0];
+                popup_3ddb73f86a229139fb50a03d1fafc335.setContent(html_cdc29fce91feb426a111b9d51a34a917);
+            
+        
+
+        marker_7633155c0194330ce4359974c21ac344.bindPopup(popup_3ddb73f86a229139fb50a03d1fafc335)
+        ;
+
+        
+    
+    
+            var marker_d561dc558799b4b6cced8356a2fcdb3b = L.marker(
+                [11.5417, 104.8924579],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_7b6e1977a9a3ec2ba086d9fcc066337f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7d5b8acf0426c896ec365f5e922202d = $(`<div id="html_a7d5b8acf0426c896ec365f5e922202d" style="width: 100.0%; height: 100.0%;">Milky Way Kindergarten Elementary And Secondary School</div>`)[0];
+                popup_7b6e1977a9a3ec2ba086d9fcc066337f.setContent(html_a7d5b8acf0426c896ec365f5e922202d);
+            
+        
+
+        marker_d561dc558799b4b6cced8356a2fcdb3b.bindPopup(popup_7b6e1977a9a3ec2ba086d9fcc066337f)
+        ;
+
+        
+    
+    
+            var marker_56b9678b63bcf213c9b5c2e4efaf9009 = L.marker(
+                [11.5548294, 104.8972265],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_6796c7a13c1c36dbb70ece43eb82e81d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46d96c5c3e35ec16baa702a81bdf6f64 = $(`<div id="html_46d96c5c3e35ec16baa702a81bdf6f64" style="width: 100.0%; height: 100.0%;">Immanuel Primary School</div>`)[0];
+                popup_6796c7a13c1c36dbb70ece43eb82e81d.setContent(html_46d96c5c3e35ec16baa702a81bdf6f64);
+            
+        
+
+        marker_56b9678b63bcf213c9b5c2e4efaf9009.bindPopup(popup_6796c7a13c1c36dbb70ece43eb82e81d)
+        ;
+
+        
+    
+    
+            var marker_aedab8c57566cd4d93cb61a9691e4e64 = L.marker(
+                [11.550758, 104.889979],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_a3f4620ce6c31e395c1123d4b2d10f2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20fb3b93deb120e5403108baeb2ada4e = $(`<div id="html_20fb3b93deb120e5403108baeb2ada4e" style="width: 100.0%; height: 100.0%;">ទីស្នាក់នៅរបស់មនុស្សកំពូលល្អៗ</div>`)[0];
+                popup_a3f4620ce6c31e395c1123d4b2d10f2c.setContent(html_20fb3b93deb120e5403108baeb2ada4e);
+            
+        
+
+        marker_aedab8c57566cd4d93cb61a9691e4e64.bindPopup(popup_a3f4620ce6c31e395c1123d4b2d10f2c)
+        ;
+
+        
+    
+    
+            var marker_53fb28da70a5dd7285022c1674a1fa13 = L.marker(
+                [11.5413984, 104.9034663],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_b24d4031e6690c4e95a34c1c32b113f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0edc69ef218787b5a78f788b30a6573 = $(`<div id="html_b0edc69ef218787b5a78f788b30a6573" style="width: 100.0%; height: 100.0%;">សាលាបឋមសិក្សា​ +​ វិទ្យាល័យ​ចំរេីនផល</div>`)[0];
+                popup_b24d4031e6690c4e95a34c1c32b113f8.setContent(html_b0edc69ef218787b5a78f788b30a6573);
+            
+        
+
+        marker_53fb28da70a5dd7285022c1674a1fa13.bindPopup(popup_b24d4031e6690c4e95a34c1c32b113f8)
+        ;
+
+        
+    
+    
+            var marker_4d07041cdf0b28c0b7dae29908bef1ed = L.marker(
+                [11.521746, 104.9141655],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_4a628e532c3270e8c319d068efac40e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47a5cf3e57f44b943ba9e9728b30cc67 = $(`<div id="html_47a5cf3e57f44b943ba9e9728b30cc67" style="width: 100.0%; height: 100.0%;">ACT Academy of Careers and Technology</div>`)[0];
+                popup_4a628e532c3270e8c319d068efac40e1.setContent(html_47a5cf3e57f44b943ba9e9728b30cc67);
+            
+        
+
+        marker_4d07041cdf0b28c0b7dae29908bef1ed.bindPopup(popup_4a628e532c3270e8c319d068efac40e1)
+        ;
+
+        
+    
+    
+            var marker_d9e83510bf199fb50dfeb2a9f52f75d8 = L.marker(
+                [11.5747508, 104.9197843],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_b701b8a5fe1023f933c326ffd5a840e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d175acf9019a56f11c67f5cf05940d1f = $(`<div id="html_d175acf9019a56f11c67f5cf05940d1f" style="width: 100.0%; height: 100.0%;">Lycée Français René Descartes (LFRD)</div>`)[0];
+                popup_b701b8a5fe1023f933c326ffd5a840e0.setContent(html_d175acf9019a56f11c67f5cf05940d1f);
+            
+        
+
+        marker_d9e83510bf199fb50dfeb2a9f52f75d8.bindPopup(popup_b701b8a5fe1023f933c326ffd5a840e0)
+        ;
+
+        
+    
+    
+            var marker_2b6734af85cbbf1e73899e3ca9d7b6ee = L.marker(
+                [11.500573, 104.892523],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_e7e777acba8cb24360f2ac1306746ef4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e9066faa40474bc7ac5222be0789562 = $(`<div id="html_8e9066faa40474bc7ac5222be0789562" style="width: 100.0%; height: 100.0%;">Tuol Ampil High School</div>`)[0];
+                popup_e7e777acba8cb24360f2ac1306746ef4.setContent(html_8e9066faa40474bc7ac5222be0789562);
+            
+        
+
+        marker_2b6734af85cbbf1e73899e3ca9d7b6ee.bindPopup(popup_e7e777acba8cb24360f2ac1306746ef4)
+        ;
+
+        
+    
+    
+            var marker_eba25235de8e2b56dd90be835371181c = L.marker(
+                [11.6153295, 104.8459637],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_bb70694e04858b40d7416d417061608b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a570849ba76538085486e362c5cfc95 = $(`<div id="html_9a570849ba76538085486e362c5cfc95" style="width: 100.0%; height: 100.0%;">IU International School</div>`)[0];
+                popup_bb70694e04858b40d7416d417061608b.setContent(html_9a570849ba76538085486e362c5cfc95);
+            
+        
+
+        marker_eba25235de8e2b56dd90be835371181c.bindPopup(popup_bb70694e04858b40d7416d417061608b)
+        ;
+
+        
+    
+    
+            var marker_87afacfabe1e33c057fc05de74c9c72b = L.marker(
+                [11.5646016, 104.9126194],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_b941f80c7a5437e8c350a2d4e8440a2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fae7435963a5286e7407fd060bba9ac3 = $(`<div id="html_fae7435963a5286e7407fd060bba9ac3" style="width: 100.0%; height: 100.0%;">Bak Touk High School</div>`)[0];
+                popup_b941f80c7a5437e8c350a2d4e8440a2c.setContent(html_fae7435963a5286e7407fd060bba9ac3);
+            
+        
+
+        marker_87afacfabe1e33c057fc05de74c9c72b.bindPopup(popup_b941f80c7a5437e8c350a2d4e8440a2c)
+        ;
+
+        
+    
+    
+            var marker_f2fb4e13b7f293ec7c69d817134fe9e5 = L.marker(
+                [11.5640126, 104.9252101],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_4cbefd659885e483e88c342513e9122d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f2c366f1e7cfb419b42726fa887faf3 = $(`<div id="html_2f2c366f1e7cfb419b42726fa887faf3" style="width: 100.0%; height: 100.0%;">Preah Sisowath High School</div>`)[0];
+                popup_4cbefd659885e483e88c342513e9122d.setContent(html_2f2c366f1e7cfb419b42726fa887faf3);
+            
+        
+
+        marker_f2fb4e13b7f293ec7c69d817134fe9e5.bindPopup(popup_4cbefd659885e483e88c342513e9122d)
+        ;
+
+        
+    
+    
+            var marker_4361aac4a0c67529acbbc662443e69fe = L.marker(
+                [11.5520516, 104.8948051],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_65608abc919dd56a61be35c9ec17e841 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c202a6d604e4c26e965ee378e3b717d1 = $(`<div id="html_c202a6d604e4c26e965ee378e3b717d1" style="width: 100.0%; height: 100.0%;">Extra class</div>`)[0];
+                popup_65608abc919dd56a61be35c9ec17e841.setContent(html_c202a6d604e4c26e965ee378e3b717d1);
+            
+        
+
+        marker_4361aac4a0c67529acbbc662443e69fe.bindPopup(popup_65608abc919dd56a61be35c9ec17e841)
+        ;
+
+        
+    
+    
+            var marker_ce31a78fc621ac6f6b59292ef82a19d7 = L.marker(
+                [11.5496961, 104.8916123],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_22bfc60679bb543378af640fdee47198 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6366f4e9a6be0ebc1ce8a444f5486e9e = $(`<div id="html_6366f4e9a6be0ebc1ce8a444f5486e9e" style="width: 100.0%; height: 100.0%;">Chea Sim Samaki High School</div>`)[0];
+                popup_22bfc60679bb543378af640fdee47198.setContent(html_6366f4e9a6be0ebc1ce8a444f5486e9e);
+            
+        
+
+        marker_ce31a78fc621ac6f6b59292ef82a19d7.bindPopup(popup_22bfc60679bb543378af640fdee47198)
+        ;
+
+        
+    
+    
+            var marker_3c01562d59111de1d3d83169e1a15a8c = L.marker(
+                [11.5404856, 104.9017491],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_71ab75810c70368332a861370ca37fbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19a6bf94686b9cb129ff19ef7d085a46 = $(`<div id="html_19a6bf94686b9cb129ff19ef7d085a46" style="width: 100.0%; height: 100.0%;">សាលាជប៉ុន</div>`)[0];
+                popup_71ab75810c70368332a861370ca37fbd.setContent(html_19a6bf94686b9cb129ff19ef7d085a46);
+            
+        
+
+        marker_3c01562d59111de1d3d83169e1a15a8c.bindPopup(popup_71ab75810c70368332a861370ca37fbd)
+        ;
+
+        
+    
+    
+            var marker_de2a921bb2b7c3f1dcc1e14012d9183b = L.marker(
+                [11.5508811, 104.889932],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_46afc04f469348a5766bc6fc090061f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_796ecd0d02388d24128e33be8dbf9651 = $(`<div id="html_796ecd0d02388d24128e33be8dbf9651" style="width: 100.0%; height: 100.0%;">School</div>`)[0];
+                popup_46afc04f469348a5766bc6fc090061f7.setContent(html_796ecd0d02388d24128e33be8dbf9651);
+            
+        
+
+        marker_de2a921bb2b7c3f1dcc1e14012d9183b.bindPopup(popup_46afc04f469348a5766bc6fc090061f7)
+        ;
+
+        
+    
+    
+            var marker_8d716c0c9da0ec07b4573f714dc62947 = L.marker(
+                [11.5410724, 104.9036515],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_3e487ef2f5b261ec5fdf7cc9a758189f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a0b3f94a852f8d549befd18e4809cba = $(`<div id="html_0a0b3f94a852f8d549befd18e4809cba" style="width: 100.0%; height: 100.0%;">Chamreun Phorl High School</div>`)[0];
+                popup_3e487ef2f5b261ec5fdf7cc9a758189f.setContent(html_0a0b3f94a852f8d549befd18e4809cba);
+            
+        
+
+        marker_8d716c0c9da0ec07b4573f714dc62947.bindPopup(popup_3e487ef2f5b261ec5fdf7cc9a758189f)
+        ;
+
+        
+    
+    
+            var marker_01096bf35c77a73372eb1e7139aba78e = L.marker(
+                [11.5462913, 104.9080977],
+                {}
+            ).addTo(map_bf5bdf8a5e3e2ce6333f411eaf8ef6bf);
+        
+    
+        var popup_957132de74ed3c79f6f5b03d2229dc08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63ef2b57cab2b262f21bb237398faab5 = $(`<div id="html_63ef2b57cab2b262f21bb237398faab5" style="width: 100.0%; height: 100.0%;">American Intercon School (AIS): MAO TSE TONG CAMPUS, Lim Kim Noy Tower</div>`)[0];
+                popup_957132de74ed3c79f6f5b03d2229dc08.setContent(html_63ef2b57cab2b262f21bb237398faab5);
+            
+        
+
+        marker_01096bf35c77a73372eb1e7139aba78e.bindPopup(popup_957132de74ed3c79f6f5b03d2229dc08)
+        ;
+
+        
+    
+</script>
+</html>
