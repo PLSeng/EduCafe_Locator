@@ -25,5 +25,5 @@ pip install numpy pandas matplotlib sklearn
 - [PAV Limseng](https://github.com/PLSeng)
 - [KHUN Sithanut](https://github.com/Sithanut-Khun)
 - [PEN Virak](https://github.com/PenVirak)
-- [PEL Bunkloem](https://github.com/Thecodingsamurai)
+- [PEL Bunkhloem](https://github.com/Thecodingsamurai)
 - [PEANG Rattanak](https://github.com/Peang-Rattanak)
