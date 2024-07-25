@@ -18,7 +18,7 @@ Clusters were identified that represent optimal locations for establishing new c
 ## Installation
 To run this project, you will need Python and several libraries which can be installed via pip:
 ```bash
-pip install numpy pandas matplotlib sklearn
+pip install numpy pandas matplotlib scikit-learn
 ```
 
 ## Contributors
